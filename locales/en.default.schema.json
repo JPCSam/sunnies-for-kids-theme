@@ -2414,6 +2414,9 @@
           "settings": {
             "heading": {
               "label": "Heading"
+            },
+            "heading_color": {
+              "label": "Heading Colour"
             }
           }
         },
