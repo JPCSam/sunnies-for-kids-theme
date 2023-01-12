@@ -1106,6 +1106,9 @@
 					"settings": {
 						"heading": {
 							"label": "Heading"
+						},
+						"heading_color": {
+							"label": "Heading Colour"
 						}
 					}
 				},
@@ -1126,6 +1129,9 @@
 								"label": "Uppercase"
 							},
 							"label": "Text style"
+						},
+						"text_color": {
+							"label": "Text Colour"
 						}
 					}
 				},
