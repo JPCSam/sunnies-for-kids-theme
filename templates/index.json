@@ -1,238 +1,231 @@
 {
-  "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "now introducing aviators",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "splash image feature description lorem ipsum",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "view collection",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/splash_example_bg.png",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>featured styles<\/p>",
-            "heading_size": "h1",
-            "heading_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "heading"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "d827b4c8-a6c7-495d-8656-dd16e15b3a7d": {
-      "type": "collection-list",
-      "blocks": {
-        "template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "aviators"
-          }
-        },
-        "template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "aviators"
-          }
-        },
-        "template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "aviators"
-          }
-        },
-        "4ad1502a-18c1-407e-ac8d-679c9040e5df": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "aviators"
-          }
-        }
-      },
-      "block_order": [
-        "template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-0",
-        "template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-1",
-        "template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-2",
-        "4ad1502a-18c1-407e-ac8d-679c9040e5df"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "d8594b35-b7c1-4783-865a-c108537d0a1a": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--17502509498660__d8594b35-b7c1-4783-865a-c108537d0a1a-167336037393701037-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/splash_bg.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--17502509498660__d8594b35-b7c1-4783-865a-c108537d0a1a-167336037393701037-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Black_Sunnies_Child_on_Water.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17502509498660__d8594b35-b7c1-4783-865a-c108537d0a1a-167336037393701037-0",
-        "template--17502509498660__d8594b35-b7c1-4783-865a-c108537d0a1a-167336037393701037-1"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "5483315d-3e05-404c-96a8-ae9acb863bef": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17502509498660__5483315d-3e05-404c-96a8-ae9acb863bef-1673360373cf6d5a21-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>lost or broken?<br\/>we've got you covered.<\/p>",
-            "heading_size": "h1",
-            "heading_color": "#ffffff"
-          }
-        },
-        "template--17502509498660__5483315d-3e05-404c-96a8-ae9acb863bef-1673360373cf6d5a21-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Register your glasses within 30 days of purchase, and if lost or broken during the <br\/>first year you will receive a one-time replacement pair free! All you pay is the postage.<\/p>"
-          }
-        },
-        "template--17502509498660__5483315d-3e05-404c-96a8-ae9acb863bef-1673360373cf6d5a21-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "register & replace",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17502509498660__5483315d-3e05-404c-96a8-ae9acb863bef-1673360373cf6d5a21-0",
-        "template--17502509498660__5483315d-3e05-404c-96a8-ae9acb863bef-1673360373cf6d5a21-1",
-        "template--17502509498660__5483315d-3e05-404c-96a8-ae9acb863bef-1673360373cf6d5a21-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "167336095741080d47": {
-      "type": "apps",
-      "blocks": {
-        "335b9c67-d0dd-497e-9a8a-3bb405877fff": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "335b9c67-d0dd-497e-9a8a-3bb405877fff"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    }
-  },
-  "order": [
-    "image_banner",
-    "rich_text",
-    "d827b4c8-a6c7-495d-8656-dd16e15b3a7d",
-    "d8594b35-b7c1-4783-865a-c108537d0a1a",
-    "5483315d-3e05-404c-96a8-ae9acb863bef",
-    "167336095741080d47"
-  ]
+	"sections": {
+		"image_banner": {
+			"type": "image-banner",
+			"blocks": {
+				"heading": {
+					"type": "heading",
+					"settings": {
+						"heading": "now introducing aviators",
+						"heading_size": "h0"
+					}
+				},
+				"text": {
+					"type": "text",
+					"settings": {
+						"text": "splash image feature description lorem ipsum",
+						"text_style": "body"
+					}
+				},
+				"button": {
+					"type": "buttons",
+					"settings": {
+						"button_label_1": "view collection",
+						"button_link_1": "shopify://collections/all",
+						"button_style_secondary_1": false,
+						"button_label_2": "",
+						"button_link_2": "",
+						"button_style_secondary_2": false
+					}
+				}
+			},
+			"block_order": ["heading", "text", "button"],
+			"settings": {
+				"image": "shopify://shop_images/splash_example_bg.png",
+				"image_overlay_opacity": 0,
+				"image_height": "small",
+				"adapt_height_first_image": false,
+				"desktop_content_position": "middle-left",
+				"show_text_box": false,
+				"desktop_content_alignment": "left",
+				"color_scheme": "background-1",
+				"mobile_content_alignment": "center",
+				"stack_images_on_mobile": false,
+				"show_text_below": false
+			}
+		},
+		"rich_text": {
+			"type": "rich-text",
+			"blocks": {
+				"heading": {
+					"type": "heading",
+					"settings": {
+						"heading": "<p>featured styles</p>",
+						"heading_size": "h1",
+						"heading_color": "#000000"
+					}
+				}
+			},
+			"block_order": ["heading"],
+			"settings": {
+				"desktop_content_position": "center",
+				"content_alignment": "center",
+				"color_scheme": "background-1",
+				"full_width": true,
+				"padding_top": 40,
+				"padding_bottom": 0
+			}
+		},
+		"d827b4c8-a6c7-495d-8656-dd16e15b3a7d": {
+			"type": "collection-list",
+			"blocks": {
+				"template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-0": {
+					"type": "featured_collection",
+					"settings": {
+						"collection": "aviators"
+					}
+				},
+				"template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-1": {
+					"type": "featured_collection",
+					"settings": {
+						"collection": "aviators"
+					}
+				},
+				"template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-2": {
+					"type": "featured_collection",
+					"settings": {
+						"collection": "aviators"
+					}
+				},
+				"4ad1502a-18c1-407e-ac8d-679c9040e5df": {
+					"type": "featured_collection",
+					"settings": {
+						"collection": "aviators"
+					}
+				}
+			},
+			"block_order": [
+				"template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-0",
+				"template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-1",
+				"template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-2",
+				"4ad1502a-18c1-407e-ac8d-679c9040e5df"
+			],
+			"settings": {
+				"title": "",
+				"heading_size": "h2",
+				"image_ratio": "square",
+				"columns_desktop": 4,
+				"color_scheme": "background-1",
+				"show_view_all": false,
+				"columns_mobile": "1",
+				"swipe_on_mobile": false,
+				"padding_top": 36,
+				"padding_bottom": 36
+			}
+		},
+		"d8594b35-b7c1-4783-865a-c108537d0a1a": {
+			"type": "multicolumn",
+			"blocks": {
+				"template--17502509498660__d8594b35-b7c1-4783-865a-c108537d0a1a-167336037393701037-0": {
+					"type": "column",
+					"settings": {
+						"image": "shopify://shop_images/splash_bg.png",
+						"title": "Column",
+						"text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+						"link_label": "",
+						"link": ""
+					}
+				},
+				"template--17502509498660__d8594b35-b7c1-4783-865a-c108537d0a1a-167336037393701037-1": {
+					"type": "column",
+					"settings": {
+						"image": "shopify://shop_images/Black_Sunnies_Child_on_Water.jpg",
+						"title": "",
+						"text": "",
+						"link_label": "",
+						"link": ""
+					}
+				}
+			},
+			"block_order": [
+				"template--17502509498660__d8594b35-b7c1-4783-865a-c108537d0a1a-167336037393701037-0",
+				"template--17502509498660__d8594b35-b7c1-4783-865a-c108537d0a1a-167336037393701037-1"
+			],
+			"settings": {
+				"title": "",
+				"heading_size": "h2",
+				"image_width": "half",
+				"image_ratio": "adapt",
+				"columns_desktop": 2,
+				"column_alignment": "left",
+				"background_style": "primary",
+				"button_label": "",
+				"button_link": "",
+				"color_scheme": "background-1",
+				"columns_mobile": "1",
+				"swipe_on_mobile": false,
+				"padding_top": 0,
+				"padding_bottom": 0
+			}
+		},
+		"5483315d-3e05-404c-96a8-ae9acb863bef": {
+			"type": "rich-text",
+			"blocks": {
+				"template--17502509498660__5483315d-3e05-404c-96a8-ae9acb863bef-1673360373cf6d5a21-0": {
+					"type": "heading",
+					"settings": {
+						"heading": "<p>lost or broken?<br/>we've got you covered.</p>",
+						"heading_size": "h1",
+						"heading_color": "#ffffff"
+					}
+				},
+				"template--17502509498660__5483315d-3e05-404c-96a8-ae9acb863bef-1673360373cf6d5a21-1": {
+					"type": "text",
+					"settings": {
+						"text": "<p>Register your glasses within 30 days of purchase, and if lost or broken during the <br/>first year you will receive a one-time replacement pair free! All you pay is the postage.</p>",
+						"text_color": "#000000"
+					}
+				},
+				"template--17502509498660__5483315d-3e05-404c-96a8-ae9acb863bef-1673360373cf6d5a21-2": {
+					"type": "button",
+					"settings": {
+						"button_label": "register & replace",
+						"button_link": "",
+						"button_style_secondary": false,
+						"button_label_2": "",
+						"button_link_2": "",
+						"button_style_secondary_2": false
+					}
+				}
+			},
+			"block_order": [
+				"template--17502509498660__5483315d-3e05-404c-96a8-ae9acb863bef-1673360373cf6d5a21-0",
+				"template--17502509498660__5483315d-3e05-404c-96a8-ae9acb863bef-1673360373cf6d5a21-1",
+				"template--17502509498660__5483315d-3e05-404c-96a8-ae9acb863bef-1673360373cf6d5a21-2"
+			],
+			"settings": {
+				"desktop_content_position": "center",
+				"content_alignment": "center",
+				"color_scheme": "background-1",
+				"full_width": true,
+				"padding_top": 40,
+				"padding_bottom": 52
+			}
+		},
+		"167336095741080d47": {
+			"type": "apps",
+			"blocks": {
+				"335b9c67-d0dd-497e-9a8a-3bb405877fff": {
+					"type": "shopify://apps/instafeed-instagram-feed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+					"settings": {
+						"heading_size": 20,
+						"feed_width": 100,
+						"html_area": ""
+					}
+				}
+			},
+			"block_order": ["335b9c67-d0dd-497e-9a8a-3bb405877fff"],
+			"settings": {
+				"include_margins": true
+			}
+		}
+	},
+	"order": [
+		"image_banner",
+		"rich_text",
+		"d827b4c8-a6c7-495d-8656-dd16e15b3a7d",
+		"d8594b35-b7c1-4783-865a-c108537d0a1a",
+		"5483315d-3e05-404c-96a8-ae9acb863bef",
+		"167336095741080d47"
+	]
 }
