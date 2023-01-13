@@ -2299,6 +2299,8 @@ input[type='checkbox'] {
 }
 
 .header__heading {
+  height: 100%;
+  width: 150px;
   margin: 0;
   line-height: 0;
 }
@@ -2315,7 +2317,6 @@ input[type='checkbox'] {
 
 .header__heading-link {
   display: inline-block;
-  padding: 0.75rem;
   text-decoration: none;
   word-break: break-word;
 }
@@ -2330,8 +2331,8 @@ input[type='checkbox'] {
 }
 
 .header__heading-logo {
-  height: auto;
-  width: 100%;
+  height: 100% !important;
+  width: auto;
 }
 
 @media screen and (max-width: 989px) {
