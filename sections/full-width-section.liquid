@@ -40,6 +40,24 @@
               >
                 {{ block.settings.text }}
               </div>
+            {%- when 'button' -%}
+              <div
+                class="fw-button"
+                {{ block.shopify_attributes }}
+              >
+                {%- if block.settings.button_label != blank -%}
+                  <a
+                    {% if block.settings.button_link == blank %}
+                      role="link" aria-disabled="true"
+                    {% else %}
+                      href="{{ block.settings.button_link }}"
+                    {% endif %}
+                    class="button {{ block.settings.button_style }}-button"
+                  >
+                    {{- block.settings.button_label | escape -}}
+                  </a>
+                {%- endif -%}
+              </div>
           {%- endcase -%}
         {%- endfor -%}
       </div>
@@ -55,7 +73,7 @@
     </div>
     <div class="fw-image-section">
       {%- if section.settings.content_image != blank -%}
-        <div class="fw-image-content">
+        <div class="fw-image-content" style="height: {{ section.settings.content_image_height }}px">
           {{
             section.settings.content_image
             | image_url: width: 1420
@@ -196,6 +214,45 @@
           "label": "t:sections.full-width-section.blocks.text.settings.text_color.label"
         }
       ]
+    },
+    {
+      "type": "button",
+      "name": "t:sections.full-width-section.blocks.button.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label",
+          "default": "Button",
+          "label": "t:sections.full-width-section.blocks.button.settings.button_label.label",
+          "info": "t:sections.full-width-section.blocks.button.settings.button_label.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.full-width-section.blocks.button.settings.button_link.label"
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "default": "regular",
+          "label": "t:sections.full-width-section.blocks.button.settings.button_style.label",
+          "options": [
+            {
+              "value": "gradient",
+              "label": "t:sections.full-width-section.blocks.button.settings.button_style.options__1.label"
+            },
+            {
+              "value": "regular",
+              "label": "t:sections.full-width-section.blocks.button.settings.button_style.options__2.label"
+            },
+            {
+              "value": "outlined",
+              "label": "t:sections.full-width-section.blocks.button.settings.button_style.options__3.label"
+            }
+          ]
+        }
+      ]
     }
   ],
   "presets": [
@@ -207,6 +264,9 @@
         },
         {
           "type": "text"
+        },
+        {
+          "type": "button"
         }
       ]
     }

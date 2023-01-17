@@ -185,7 +185,13 @@
 			}
 		},
 		"buttons": {
-			"name": "Buttons"
+			"name": "Buttons",
+			"settings": {
+				"gradient_button": {
+					"content": "Gradient Button",
+					"font_checkbox": "Use Sunnies font?"
+				}
+			}
 		},
 		"variant_pills": {
 			"name": "Variant pills",
@@ -424,6 +430,30 @@
 						},
 						"text_color": {
 							"label": "Text Colour"
+						}
+					}
+				},
+				"button": {
+					"name": "Button",
+					"settings": {
+						"button_label": {
+							"label": "Heading Content",
+							"info": "Leave the label black to hide the button."
+						},
+						"button_link": {
+							"label": "Button Link"
+						},
+						"button_style": {
+							"label": "Button Style",
+							"options__1": {
+								"label": "Gradient"
+							},
+							"options__2": {
+								"label": "Regular"
+							},
+							"options__3": {
+								"label": "Outlined"
+							}
 						}
 					}
 				}
