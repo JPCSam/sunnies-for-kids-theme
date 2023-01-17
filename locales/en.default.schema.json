@@ -360,9 +360,11 @@
 	"sections": {
 		"all": {
 			"padding": {
-				"section_padding_heading": "Section padding",
-				"padding_top": "Top padding",
-				"padding_bottom": "Bottom padding"
+				"section_padding_heading": "Section Padding",
+				"padding_top": "Top Padding",
+				"padding_bottom": "Bottom Padding",
+				"padding_left": "Left Padding",
+				"padding_right": "Right Padding"
 			},
 			"spacing": "Spacing",
 			"colors": {
@@ -397,6 +399,44 @@
 				},
 				"options__4": {
 					"label": "Extra large"
+				}
+			}
+		},
+		"full-width-section": {
+			"name": "Full Width Section",
+			"blocks": {
+				"heading": {
+					"name": "Heading",
+					"settings": {
+						"heading": {
+							"label": "Heading Content"
+						},
+						"heading_color": {
+							"label": "Heading Colour"
+						}
+					}
+				},
+				"text": {
+					"name": "Text",
+					"settings": {
+						"text": {
+							"label": "Text Content"
+						},
+						"text_color": {
+							"label": "Text Colour"
+						}
+					}
+				}
+			},
+			"settings": {
+				"text_background": {
+					"label": "Text Background Image"
+				},
+				"content_image": {
+					"label": "Content Image"
+				},
+				"content_image_height": {
+					"label": "Content Image Height"
 				}
 			}
 		},

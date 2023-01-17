@@ -223,6 +223,10 @@
     }
   },
   "sections": {
+    "full-width-section" :{
+      "name": "Full Width Section",
+      "title": "Full Width Section"
+    },
     "header": {
       "announcement": "Announcement",
       "menu": "Menu",
