@@ -1788,7 +1788,7 @@ details[open]>.share-button__fallback {
 .customer .field input:focus-visible,
 .customer select:focus-visible,
 .localization-form__select:focus-visible.localization-form__select:after {
-  box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground));
+  /* box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground)); */
   outline: 0;
   border-radius: var(--inputs-radius);
 }
@@ -1798,7 +1798,7 @@ details[open]>.share-button__fallback {
 .customer .field input:focus,
 .customer select:focus,
 .localization-form__select:focus.localization-form__select:after {
-  box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground));
+  /* box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground)); */
   outline: 0;
   border-radius: var(--inputs-radius);
 }
@@ -2678,27 +2678,23 @@ details[open]>.header__submenu {
 
 .header__menu-item {
   font-size: 1.1em;
-  padding: 1.2rem;
+  padding: 1.2rem 2rem;
   text-decoration: none;
   color: rgba(var(--color-foreground), 0.75);
 }
 
 .header__menu-item:hover {
   color: rgb(var(--color-foreground));
+  background-color: rgb(230, 230, 230);
 }
 
 .header__menu-item span {
   transition: text-decoration var(--duration-short) ease;
 }
 
-.header__menu-item:hover span {
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
-}
+.header__menu-item:hover span {}
 
-details[open]>.header__menu-item {
-  text-decoration: underline;
-}
+details[open]>.header__menu-item {}
 
 details[open]:hover>.header__menu-item {
   text-decoration-thickness: 0.2rem;
@@ -2712,12 +2708,9 @@ details[open]>.header__menu-item .icon-caret {
   transition: text-decoration-thickness var(--duration-short) ease;
   color: rgb(var(--color-foreground));
   text-decoration: underline;
-  text-underline-offset: 0.3rem;
 }
 
-.header__menu-item:hover .header__active-menu-item {
-  text-decoration-thickness: 0.2rem;
-}
+.header__menu-item:hover .header__active-menu-item {}
 
 .header__submenu {
   transition: opacity var(--duration-default) ease,
