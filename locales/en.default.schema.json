@@ -467,6 +467,15 @@
 				},
 				"content_image_height": {
 					"label": "Content Image Height"
+				},
+				"image_position": {
+					"label": "Image Position",
+					"options__1": {
+						"label": "Left"
+					},
+					"options__2": {
+						"label": "Right"
+					}
 				}
 			}
 		},

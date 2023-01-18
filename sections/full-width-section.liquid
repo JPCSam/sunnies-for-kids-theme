@@ -19,14 +19,17 @@
 {%- endstyle -%}
 
 <div class="full-width-section background-primary no-heading">
-  <div class="fw-section-wrapper section-{{ section.id }}-padding">
+  <div
+    class="fw-section-wrapper image-{{section.settings.image_position}} section-{{ section.id }}-padding"
+    style="grid-template-rows: {{ section.settings.content_image_height }}px;"
+  >
     <div class="fw-text-section text-{{ section.id }}-padding">
       <div class="fw-text-wrapper">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'heading' -%}
               <h2
-                class="rich-text__heading rte {{ block.settings.heading_size }}"
+                class="rte {{ block.settings.heading_size }}"
                 {{ block.shopify_attributes }}
                 style="color: {{ block.settings.heading_color }} !important"
               >
@@ -34,7 +37,7 @@
               </h2>
             {%- when 'text' -%}
               <div
-                class="rich-text__text rte"
+                class="rte"
                 {{ block.shopify_attributes }}
                 style="color: {{ block.settings.text_color }} !important"
               >
@@ -73,13 +76,11 @@
     </div>
     <div class="fw-image-section">
       {%- if section.settings.content_image != blank -%}
-        <div class="fw-image-content" style="height: {{ section.settings.content_image_height }}px">
-          {{
-            section.settings.content_image
-            | image_url: width: 1420
-            | image_tag: loading: 'lazy', sizes: sizes, widths: '275, 550, 710, 1420', class: ''
-          }}
-        </div>
+        {{
+          section.settings.content_image
+          | image_url: width: 1420
+          | image_tag: loading: 'lazy', sizes: sizes, widths: '275, 550, 710, 1420', class: ''
+        }}
       {%- endif -%}
     </div>
   </div>
@@ -100,6 +101,22 @@
       "type": "image_picker",
       "id": "content_image",
       "label": "t:sections.full-width-section.settings.content_image.label"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "default": "right",
+      "label": "t:sections.full-width-section.settings.image_position.label",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.full-width-section.settings.image_position.options__1.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.full-width-section.settings.image_position.options__2.label"
+        }
+      ]
     },
     {
       "type": "range",
