@@ -121,49 +121,47 @@
         "padding_bottom": 36
       }
     },
-    "d8594b35-b7c1-4783-865a-c108537d0a1a": {
-      "type": "multicolumn",
+    "01e6c8fb-b947-4b53-acbe-c5a532ebe0ad": {
+      "type": "full-width-section",
       "blocks": {
-        "template--17502509498660__d8594b35-b7c1-4783-865a-c108537d0a1a-167336037393701037-0": {
-          "type": "column",
+        "template--17567828771108__01e6c8fb-b947-4b53-acbe-c5a532ebe0ad-16739590888a94cc3d-0": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/splash_bg.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "<p>Example heading<\/p>",
+            "heading_size": "h1",
+            "heading_color": "#000000"
           }
         },
-        "template--17502509498660__d8594b35-b7c1-4783-865a-c108537d0a1a-167336037393701037-1": {
-          "type": "column",
+        "template--17567828771108__01e6c8fb-b947-4b53-acbe-c5a532ebe0ad-16739590888a94cc3d-1": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Black_Sunnies_Child_on_Water.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "text": "<p>Rich text example text Rich text example text Rich text example text Rich text example text<\/p>",
+            "text_color": "#000000"
+          }
+        },
+        "9130858a-0b98-42e5-b39c-3af7fee34c9a": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button",
+            "button_link": "shopify:\/\/collections",
+            "button_style": "gradient"
           }
         }
       },
       "block_order": [
-        "template--17502509498660__d8594b35-b7c1-4783-865a-c108537d0a1a-167336037393701037-0",
-        "template--17502509498660__d8594b35-b7c1-4783-865a-c108537d0a1a-167336037393701037-1"
+        "template--17567828771108__01e6c8fb-b947-4b53-acbe-c5a532ebe0ad-16739590888a94cc3d-0",
+        "template--17567828771108__01e6c8fb-b947-4b53-acbe-c5a532ebe0ad-16739590888a94cc3d-1",
+        "9130858a-0b98-42e5-b39c-3af7fee34c9a"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "text_background_image": "shopify:\/\/shop_images\/splash_bg_038baf83-b1bf-4177-8cad-2c5a150d03a8.png",
+        "content_image": "shopify:\/\/shop_images\/Black_Sunnies_Child_Close_Up.jpg",
+        "image_position": "right",
+        "content_image_height": 500,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_left": 52,
+        "padding_right": 36
       }
     },
     "5483315d-3e05-404c-96a8-ae9acb863bef": {
@@ -209,65 +207,13 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "167336095741080d47": {
-      "type": "apps",
-      "blocks": {
-        "335b9c67-d0dd-497e-9a8a-3bb405877fff": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "335b9c67-d0dd-497e-9a8a-3bb405877fff"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "01e6c8fb-b947-4b53-acbe-c5a532ebe0ad": {
-      "type": "full-width-section",
-      "blocks": {
-        "template--17567828771108__01e6c8fb-b947-4b53-acbe-c5a532ebe0ad-16739590888a94cc3d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Headingd<\/p>",
-            "heading_size": "h1",
-            "heading_color": "#000000"
-          }
-        },
-        "template--17567828771108__01e6c8fb-b947-4b53-acbe-c5a532ebe0ad-16739590888a94cc3d-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Rich text example text<\/p>",
-            "text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "template--17567828771108__01e6c8fb-b947-4b53-acbe-c5a532ebe0ad-16739590888a94cc3d-0",
-        "template--17567828771108__01e6c8fb-b947-4b53-acbe-c5a532ebe0ad-16739590888a94cc3d-1"
-      ],
-      "settings": {
-        "text_background_image": "shopify:\/\/shop_images\/splash_bg.png",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_left": 36,
-        "padding_right": 36
-      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
     "d827b4c8-a6c7-495d-8656-dd16e15b3a7d",
-    "d8594b35-b7c1-4783-865a-c108537d0a1a",
-    "5483315d-3e05-404c-96a8-ae9acb863bef",
-    "167336095741080d47",
-    "01e6c8fb-b947-4b53-acbe-c5a532ebe0ad"
+    "01e6c8fb-b947-4b53-acbe-c5a532ebe0ad",
+    "5483315d-3e05-404c-96a8-ae9acb863bef"
   ]
 }

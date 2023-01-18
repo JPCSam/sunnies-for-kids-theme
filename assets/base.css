@@ -554,9 +554,10 @@ blockquote {
 .field__input,
 .form__label,
 .select__select {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   line-height: calc(1 + 0.5 / var(--font-body-scale));
   letter-spacing: 0.04rem;
+  color: black !important;
 }
 
 .color-foreground {
@@ -1488,7 +1489,7 @@ button.shopify-payment-button__button--unbranded {
 
 .gradient-button {
   --border-offset: none !important;
-  font-family: var(--font-heading-family);
+  font-family: var(--buttons-gradient-font);
   font-size: 1.9rem;
   color: white !important;
   padding: 0 5rem;

@@ -385,7 +385,7 @@
                 {{ block.shopify_attributes }}
               >
                 <label class="form__label" for="Quantity-{{ section.id }}">
-                  {{ 'products.product.quantity.label' | t }}
+                  <strong>{{ 'products.product.quantity.label' | t }}</strong>
                 </label>
 
                 <quantity-input class="quantity">
@@ -483,7 +483,7 @@
                   >
                     {%- for option in product.options_with_values -%}
                       <fieldset class="js product-form__input">
-                        <legend class="form__label">{{ option.name }}</legend>
+                        <legend class="form__label"><strong>{{ option.name }}</strong></legend>
                         {%- for value in option.values -%}
                           <input
                             type="radio"
@@ -515,7 +515,7 @@
                     {%- for option in product.options_with_values -%}
                       <div class="product-form__input product-form__input--dropdown">
                         <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
-                          {{ option.name }}
+                          <strong>{{ option.name }}</strong>
                         </label>
                         <div class="select">
                           <select
