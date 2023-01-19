@@ -49,7 +49,7 @@
               </div>
             {%- when 'button' -%}
               <div
-                class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}"
+                class="fw-button"
                 {{ block.shopify_attributes }}
               >
                 {%- if block.settings.button_label != blank -%}
@@ -59,21 +59,9 @@
                     {% else %}
                       href="{{ block.settings.button_link }}"
                     {% endif %}
-                    class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                    class="button {{ block.settings.button_style }}-button"
                   >
                     {{- block.settings.button_label | escape -}}
-                  </a>
-                {%- endif -%}
-                {%- if block.settings.button_label_2 != blank -%}
-                  <a
-                    {% if block.settings.button_link_2 == blank %}
-                      role="link" aria-disabled="true"
-                    {% else %}
-                      href="{{ block.settings.button_link_2 }}"
-                    {% endif %}
-                    class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
-                  >
-                    {{- block.settings.button_label_2 | escape -}}
                   </a>
                 {%- endif -%}
               </div>
@@ -304,43 +292,40 @@
     },
     {
       "type": "button",
-      "name": "t:sections.rich-text.blocks.buttons.name",
-      "limit": 2,
+      "name": "t:sections.full-width-section.blocks.button.name",
+      "limit": 1,
       "settings": [
         {
           "type": "text",
           "id": "button_label",
-          "default": "Button label",
-          "label": "t:sections.rich-text.blocks.buttons.settings.button_label_1.label",
-          "info": "t:sections.rich-text.blocks.buttons.settings.button_label_1.info"
+          "default": "Button",
+          "label": "t:sections.full-width-section.blocks.button.settings.button_label.label",
+          "info": "t:sections.full-width-section.blocks.button.settings.button_label.info"
         },
         {
           "type": "url",
           "id": "button_link",
-          "label": "t:sections.rich-text.blocks.buttons.settings.button_link_1.label"
+          "label": "t:sections.full-width-section.blocks.button.settings.button_link.label"
         },
         {
-          "type": "checkbox",
-          "id": "button_style_secondary",
-          "default": false,
-          "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_1.label"
-        },
-        {
-          "type": "text",
-          "id": "button_label_2",
-          "label": "t:sections.rich-text.blocks.buttons.settings.button_label_2.label",
-          "info": "t:sections.rich-text.blocks.buttons.settings.button_label_2.info"
-        },
-        {
-          "type": "url",
-          "id": "button_link_2",
-          "label": "t:sections.rich-text.blocks.buttons.settings.button_link_2.label"
-        },
-        {
-          "type": "checkbox",
-          "id": "button_style_secondary_2",
-          "default": false,
-          "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_2.label"
+          "type": "select",
+          "id": "button_style",
+          "default": "regular",
+          "label": "t:sections.full-width-section.blocks.button.settings.button_style.label",
+          "options": [
+            {
+              "value": "gradient",
+              "label": "t:sections.full-width-section.blocks.button.settings.button_style.options__1.label"
+            },
+            {
+              "value": "regular",
+              "label": "t:sections.full-width-section.blocks.button.settings.button_style.options__2.label"
+            },
+            {
+              "value": "outlined",
+              "label": "t:sections.full-width-section.blocks.button.settings.button_style.options__3.label"
+            }
+          ]
         }
       ]
     }

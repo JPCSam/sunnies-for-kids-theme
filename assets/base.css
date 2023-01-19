@@ -1248,7 +1248,7 @@ summary::-webkit-details-marker {
 .media>img {
   object-fit: cover;
   object-position: center center;
-  transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .media--square {
@@ -2997,4 +2997,12 @@ details-disclosure>details {
   .localization-form__select:focus {
     outline: transparent solid 1px;
   }
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  border: solid 0.1rem rgba(0, 0, 0, 0.5);
 }
