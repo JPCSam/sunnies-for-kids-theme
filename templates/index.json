@@ -37,9 +37,9 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/splash_example_bg.png",
+        "image": "shopify:\/\/shop_images\/blue_sun_bg-READY.png",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-left",
         "show_text_box": false,
@@ -80,39 +80,32 @@
         "template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "aviators"
+            "collection": "ages-0-2"
           }
         },
         "template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "aviators"
+            "collection": "ages-3-5"
           }
         },
         "template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "aviators"
-          }
-        },
-        "4ad1502a-18c1-407e-ac8d-679c9040e5df": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "aviators"
+            "collection": "ages-7-9"
           }
         }
       },
       "block_order": [
         "template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-0",
         "template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-1",
-        "template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-2",
-        "4ad1502a-18c1-407e-ac8d-679c9040e5df"
+        "template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-2"
       ],
       "settings": {
         "title": "",
         "heading_size": "h2",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",
@@ -127,7 +120,7 @@
         "template--17567828771108__01e6c8fb-b947-4b53-acbe-c5a532ebe0ad-16739590888a94cc3d-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Example heading<\/p>",
+            "heading": "<p>full UV protection for your little ones.<\/p>",
             "heading_size": "h1",
             "heading_color": "#000000"
           }
@@ -135,14 +128,14 @@
         "template--17567828771108__01e6c8fb-b947-4b53-acbe-c5a532ebe0ad-16739590888a94cc3d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Rich text example text Rich text example text Rich text example text Rich text example text<\/p>",
+            "text": "<p>All our sunnies sunglasses offer 100% UVA\/UVB protection against strong sunlight. The lenses are filter category 3 equivalent to UV400 and are shatter resistant.<\/p>",
             "text_color": "#000000"
           }
         },
         "9130858a-0b98-42e5-b39c-3af7fee34c9a": {
           "type": "button",
           "settings": {
-            "button_label": "Button",
+            "button_label": "find out more",
             "button_link": "shopify:\/\/collections",
             "button_style": "gradient"
           }
@@ -154,7 +147,7 @@
         "9130858a-0b98-42e5-b39c-3af7fee34c9a"
       ],
       "settings": {
-        "text_background_image": "shopify:\/\/shop_images\/splash_bg_038baf83-b1bf-4177-8cad-2c5a150d03a8.png",
+        "text_background_image": "shopify:\/\/shop_images\/yellow_sun_bg-READY.png",
         "content_image": "shopify:\/\/shop_images\/Black_Sunnies_Child_Close_Up.jpg",
         "image_position": "right",
         "content_image_height": 500,
@@ -186,7 +179,8 @@
           "type": "button",
           "settings": {
             "button_label": "register & replace",
-            "button_link": ""
+            "button_link": "",
+            "button_style": "regular"
           }
         }
       },
@@ -203,6 +197,92 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "02370809-cc8c-439c-bcd8-1b501fa1f68c": {
+      "type": "full-width-section",
+      "blocks": {
+        "template--17878230597924__02370809-cc8c-439c-bcd8-1b501fa1f68c-1676303303ea2159f7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>got your glasses? get trendy accessories to match.<\/p>",
+            "heading_size": "h1",
+            "heading_color": "#000000"
+          }
+        },
+        "template--17878230597924__02370809-cc8c-439c-bcd8-1b501fa1f68c-1676303303ea2159f7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sunnies offers beach-ready accessories to keep your new specs Sunnies Safe!<\/p>",
+            "text_color": "#000000"
+          }
+        },
+        "template--17878230597924__02370809-cc8c-439c-bcd8-1b501fa1f68c-1676303303ea2159f7-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "see accessories",
+            "button_link": "shopify:\/\/collections\/accessories",
+            "button_style": "gradient"
+          }
+        }
+      },
+      "block_order": [
+        "template--17878230597924__02370809-cc8c-439c-bcd8-1b501fa1f68c-1676303303ea2159f7-0",
+        "template--17878230597924__02370809-cc8c-439c-bcd8-1b501fa1f68c-1676303303ea2159f7-1",
+        "template--17878230597924__02370809-cc8c-439c-bcd8-1b501fa1f68c-1676303303ea2159f7-2"
+      ],
+      "settings": {
+        "text_background_image": "shopify:\/\/shop_images\/blue_sun_bg-READY.png",
+        "content_image": "shopify:\/\/shop_images\/Black_Sunnies_Child_on_Water.jpg",
+        "image_position": "left",
+        "content_image_height": 500,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_left": 36,
+        "padding_right": 36
+      }
+    },
+    "8bf84133-5236-48b7-a925-ee17567c5d53": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17878230597924__8bf84133-5236-48b7-a925-ee17567c5d53-1676367138849fb042-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>check out our socials!<\/p>",
+            "heading_size": "h1",
+            "heading_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "template--17878230597924__8bf84133-5236-48b7-a925-ee17567c5d53-1676367138849fb042-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16763671153ff204af": {
+      "type": "apps",
+      "blocks": {
+        "b1d3e4cf-21f2-4dd5-befe-5ddd4fac4aa8": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "b1d3e4cf-21f2-4dd5-befe-5ddd4fac4aa8"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -210,6 +290,9 @@
     "rich_text",
     "d827b4c8-a6c7-495d-8656-dd16e15b3a7d",
     "01e6c8fb-b947-4b53-acbe-c5a532ebe0ad",
-    "5483315d-3e05-404c-96a8-ae9acb863bef"
+    "5483315d-3e05-404c-96a8-ae9acb863bef",
+    "02370809-cc8c-439c-bcd8-1b501fa1f68c",
+    "8bf84133-5236-48b7-a925-ee17567c5d53",
+    "16763671153ff204af"
   ]
 }

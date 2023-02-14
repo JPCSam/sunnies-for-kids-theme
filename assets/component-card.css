@@ -135,18 +135,18 @@
 
 .card__information {
   grid-row-start: 2;
-  padding: 1.3rem 1rem;
+  padding: 2rem;
   border-top: 0.1rem solid rgba(var(--color-foreground), 0.1);
+}
+
+@media screen and (max-width: 990px) {
+  .card__information {
+    padding: 2rem !important;
+  }
 }
 
 .card:not(.ratio)>.card__content {
   grid-template-rows: max-content minmax(0, 1fr) max-content auto;
-}
-
-@media screen and (min-width: 750px) {
-  .card__information {
-    padding: 2rem !important;
-  }
 }
 
 .card__badge {
@@ -276,11 +276,6 @@
   padding: 0;
 }
 
-.card--standard>.card__content .card__information {
-  padding-left: 0;
-  padding-right: 0;
-}
-
 .card--card.card--media .card__inner .card__information,
 .card--card.card--text .card__inner,
 .card--card.card--media>.card__content .card__badge {
@@ -345,4 +340,19 @@
 
 .card-article-info {
   margin-top: 1rem;
+}
+
+.card-information-variants {
+  font-size: 1.4rem !important;
+}
+
+.card_colour_dots {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  gap: 0.75rem;
+  bottom: 0;
+  left: 0;
+  padding: 1rem 2rem;
+  z-index: 2 !important;
 }

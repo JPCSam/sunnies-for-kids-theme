@@ -485,7 +485,6 @@
                       <fieldset class="js product-form__input">
                         <legend class="form__label"><strong>{{ option.name }}</strong></legend>
                         {%- for value in option.values -%}
-                          <script>console.log('{{ forloop  }}');</script>
                           <input
                             type="radio"
                             id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"

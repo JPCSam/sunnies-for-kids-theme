@@ -48,6 +48,14 @@
         class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}"
         style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
       >
+        <div class="card_colour_dots">
+          {%- for variant in card_product.variants -%}
+            <span
+              class="dot"
+              style="background-color: {{ variant.metafields.custom.hex_code.value }};"
+            ></span>
+          {%- endfor -%}
+        </div>
         {%- if card_product.featured_media -%}
           <div class="card__media">
             <div class="media media--transparent media--hover-effect">
@@ -194,7 +202,7 @@
                 </span>
               </p>
             {%- endif -%}
-
+            <span class="card-information-variants">Available in {{ card_product.variants.size | t }} colours</span>
             {% render 'price', product: card_product, price_class: '' %}
           </div>
         </div>
