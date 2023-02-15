@@ -1487,6 +1487,23 @@ button.shopify-payment-button__button--unbranded {
 
 /* Custom Buttons */
 
+.outlined-button {
+  --border-offset: none !important;
+  font-family: var(--buttons-gradient-font);
+  font-size: 1.9rem;
+  color: rgba(0, 0, 0, 0.75) !important;
+  padding: 0 5rem;
+  border: solid 2px rgba(0, 0, 0, 0.75) !important;
+  background-color: rgba(0, 0, 0, 0);
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.outlined-button:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
 .gradient-button {
   --border-offset: none !important;
   font-family: var(--buttons-gradient-font);

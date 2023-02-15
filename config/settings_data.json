@@ -109,7 +109,7 @@
     "social_twitter_link": "",
     "social_facebook_link": "",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/sunniesforkids\/",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
@@ -118,6 +118,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/Sunnies_Sun.svg",
     "currency_code_enabled": true,
     "cart_type": "notification",
     "show_vendor": false,
@@ -129,7 +130,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Now attending",
+              "text": "now attending the baby show",
               "text_alignment": "center",
               "color_scheme": "background-1",
               "link": ""
@@ -139,11 +140,17 @@
         "block_order": [
           "announcement-bar-0"
         ],
+        "custom_css": [
+          ".announcement-bar {background-color: #ffcb72 !important;}"
+        ],
         "settings": {
         }
       },
       "header": {
         "type": "header",
+        "custom_css": [
+          ".header-wrapper {background-color: #fff5e4;}"
+        ],
         "settings": {
           "color_scheme": "background-1",
           "logo": "{{ shop.brand.logo }}",
@@ -162,32 +169,33 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "5e17fcab-81a2-49ac-a407-653efdd41b4c": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Sunnies_Sun.svg",
+              "image_width": 100,
+              "alignment": "center"
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Quick Links",
               "menu": "footer"
             }
           },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
-              "menu": "footer"
-            }
-          },
-          "footer-2": {
+          "6fd5f688-e2bb-4a6e-8e08-b408076a9208": {
             "type": "text",
             "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "Get In Touch",
+              "subtext": "<p>PHONE NUMBER<br\/>hello@sunniesforkids.com<br\/><\/p>"
             }
           }
         },
         "block_order": [
+          "5e17fcab-81a2-49ac-a407-653efdd41b4c",
           "footer-0",
-          "footer-1",
-          "footer-2"
+          "6fd5f688-e2bb-4a6e-8e08-b408076a9208"
         ],
         "settings": {
           "color_scheme": "background-1",
