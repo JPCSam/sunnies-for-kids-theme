@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "now introducing aviators",
+            "heading": "new styles - coming soon",
             "heading_size": "h0",
             "heading_color": "#000000"
           }
@@ -14,7 +14,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "splash image feature description lorem ipsum",
+            "text": "Introducing brand new styles for Sunnies - Style 1, Style 2, and Style 3.",
             "text_style": "body",
             "text_color": "#000000"
           }
@@ -22,7 +22,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "view collection",
+            "button_label_1": "view collections",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
