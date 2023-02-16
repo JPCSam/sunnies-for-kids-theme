@@ -56,7 +56,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Shop by Age <\/p>",
+            "heading": "<p>shop by age <\/p>",
             "heading_size": "h1",
             "heading_color": "#000000"
           }
