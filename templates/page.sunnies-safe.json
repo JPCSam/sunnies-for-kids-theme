@@ -225,7 +225,7 @@
         "template--17901391315236__610c3ff8-6abd-4d6c-96c8-f5830acce518-16768922151acb1a20-2": {
           "type": "button",
           "settings": {
-            "button_label": "see our accessories",
+            "button_label": "see accessories",
             "button_link": "shopify:\/\/collections\/accessories",
             "button_style": "outlined"
           }
