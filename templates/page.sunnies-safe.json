@@ -203,6 +203,49 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "610c3ff8-6abd-4d6c-96c8-f5830acce518": {
+      "type": "full-width-section",
+      "blocks": {
+        "template--17901391315236__610c3ff8-6abd-4d6c-96c8-f5830acce518-16768922151acb1a20-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>want more accessories?<\/p>",
+            "heading_size": "h1",
+            "heading_color": "#000000"
+          }
+        },
+        "template--17901391315236__610c3ff8-6abd-4d6c-96c8-f5830acce518-16768922151acb1a20-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>See our collection of Sunnies Smart accessories, using high quality materials for durability!<\/p>",
+            "text_color": "#000000"
+          }
+        },
+        "template--17901391315236__610c3ff8-6abd-4d6c-96c8-f5830acce518-16768922151acb1a20-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "see our accessories",
+            "button_link": "shopify:\/\/collections\/accessories",
+            "button_style": "outlined"
+          }
+        }
+      },
+      "block_order": [
+        "template--17901391315236__610c3ff8-6abd-4d6c-96c8-f5830acce518-16768922151acb1a20-0",
+        "template--17901391315236__610c3ff8-6abd-4d6c-96c8-f5830acce518-16768922151acb1a20-1",
+        "template--17901391315236__610c3ff8-6abd-4d6c-96c8-f5830acce518-16768922151acb1a20-2"
+      ],
+      "settings": {
+        "text_background_image": "shopify:\/\/shop_images\/lilac_sun_bg.png",
+        "content_image": "shopify:\/\/shop_images\/White_Sunnies_on_Toddler.jpg",
+        "image_position": "right",
+        "content_image_height": 500,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_left": 36,
+        "padding_right": 36
+      }
     }
   },
   "order": [
@@ -211,6 +254,7 @@
     "f53da6b0-1fa9-45f4-9978-8819095b848c",
     "370b7503-d770-4058-bfec-e219468103d4",
     "13023d3d-9ec2-402c-895f-2d51dbc74222",
-    "51b61d1f-109e-45fe-b03a-4eede4528de0"
+    "51b61d1f-109e-45fe-b03a-4eede4528de0",
+    "610c3ff8-6abd-4d6c-96c8-f5830acce518"
   ]
 }
