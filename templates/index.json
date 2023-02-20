@@ -53,9 +53,9 @@
     "e055aabf-1a09-4924-addf-cf210687bb61": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/BATHS23_40__off_invite.png",
+        "image": "shopify:\/\/shop_images\/See_Us_At_Banner.png",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "small",
         "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
