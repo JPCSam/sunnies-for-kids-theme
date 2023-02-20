@@ -2,6 +2,7 @@
   "sections": {
     "02180af7-721c-47a3-963e-176ab9f7e554": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "{{ collection.metafields.custom.collection_banner_image.value }}",
         "image_overlay_opacity": 0,
@@ -18,7 +19,6 @@
     },
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
