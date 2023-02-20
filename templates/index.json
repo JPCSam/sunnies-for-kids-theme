@@ -8,7 +8,7 @@
           "settings": {
             "heading": "new styles for 2023 coming soon!",
             "heading_size": "h0",
-            "heading_color": "#000000"
+            "heading_color": "#252525"
           }
         },
         "text": {
@@ -37,7 +37,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/test_splash-1_5b8234c7-3ad5-46b5-b162-531b954e7d30.png",
+        "image": "shopify:\/\/shop_images\/newsplash_draft_1.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -52,13 +52,33 @@
     },
     "760ae518-158d-4ddc-8218-5f1115704ccd": {
       "type": "image-with-text",
+      "blocks": {
+        "1d2e81eb-1107-4576-93d9-09ff72d11f0a": {
+          "type": "heading",
+          "settings": {
+            "heading": "meet the sunnies team!",
+            "heading_size": "h1"
+          }
+        },
+        "7e58803a-ecf7-4a5f-b021-510c720deb54": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1d2e81eb-1107-4576-93d9-09ff72d11f0a",
+        "7e58803a-ecf7-4a5f-b021-510c720deb54"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/BATHS23_40__off_invite.png",
         "height": "adapt",
-        "desktop_image_width": "large",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "content_layout": "overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
