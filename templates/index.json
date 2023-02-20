@@ -50,20 +50,20 @@
         "show_text_below": false
       }
     },
-    "e055aabf-1a09-4924-addf-cf210687bb61": {
-      "type": "image-banner",
+    "760ae518-158d-4ddc-8218-5f1115704ccd": {
+      "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/See_Us_At_Banner.png",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "image": "shopify:\/\/shop_images\/BATHS23_40__off_invite.png",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
+        "content_layout": "overlap",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text": {
@@ -337,7 +337,7 @@
   },
   "order": [
     "image_banner",
-    "e055aabf-1a09-4924-addf-cf210687bb61",
+    "760ae518-158d-4ddc-8218-5f1115704ccd",
     "rich_text",
     "d827b4c8-a6c7-495d-8656-dd16e15b3a7d",
     "01e6c8fb-b947-4b53-acbe-c5a532ebe0ad",
