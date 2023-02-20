@@ -933,6 +933,7 @@ summary::-webkit-details-marker {
 
 .title--primary {
   margin: 4rem 0;
+  font-family: 'Poppins';
 }
 
 .title-wrapper--self-padded-tablet-down,
