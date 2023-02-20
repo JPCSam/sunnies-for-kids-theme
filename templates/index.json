@@ -22,8 +22,8 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "view collections",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_label_1": "see our new styles",
+            "button_link_1": "shopify:\/\/collections\/new-styles-for-2023",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -48,6 +48,22 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "760ae518-158d-4ddc-8218-5f1115704ccd": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BATHS23_40__off_invite.png",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text": {
@@ -163,7 +179,7 @@
         "template--17502509498660__5483315d-3e05-404c-96a8-ae9acb863bef-1673360373cf6d5a21-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>lost or broken?<br\/>we've got you covered.<\/p>",
+            "heading": "<p>broken sunnies?<br\/>we've got you covered.<\/p>",
             "heading_size": "h1",
             "heading_color": "#000000"
           }
@@ -171,7 +187,7 @@
         "template--17502509498660__5483315d-3e05-404c-96a8-ae9acb863bef-1673360373cf6d5a21-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Register your glasses within 30 days of purchase, and if lost or broken during the <br\/>first year you will receive a one-time replacement pair free! All you pay is the postage.<\/p>",
+            "text": "<p>Register your glasses within 30 days of purchase, and if broken during the <br\/>first year you will receive a one-time replacement pair free! All you pay is the postage.<\/p>",
             "text_color": "#000000"
           }
         },
@@ -321,6 +337,7 @@
   },
   "order": [
     "image_banner",
+    "760ae518-158d-4ddc-8218-5f1115704ccd",
     "rich_text",
     "d827b4c8-a6c7-495d-8656-dd16e15b3a7d",
     "01e6c8fb-b947-4b53-acbe-c5a532ebe0ad",
