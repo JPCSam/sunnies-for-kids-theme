@@ -50,6 +50,22 @@
         "show_text_below": false
       }
     },
+    "e055aabf-1a09-4924-addf-cf210687bb61": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BATHS23_40__off_invite.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -321,6 +337,7 @@
   },
   "order": [
     "image_banner",
+    "e055aabf-1a09-4924-addf-cf210687bb61",
     "rich_text",
     "d827b4c8-a6c7-495d-8656-dd16e15b3a7d",
     "01e6c8fb-b947-4b53-acbe-c5a532ebe0ad",
