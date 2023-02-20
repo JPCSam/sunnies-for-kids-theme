@@ -2275,6 +2275,7 @@ input[type='checkbox'] {
   padding: 1rem 0;
   margin: 0;
   letter-spacing: 0.1rem;
+  font-family: 'Poppins';
 }
 
 /* section-header */
@@ -2703,7 +2704,7 @@ details[open]>.header__submenu {
 
 .header__menu-item:hover {
   color: rgb(var(--color-foreground));
-  background-color: rgb(230, 230, 230);
+  font-family: 'Poppins Medium';
 }
 
 .header__menu-item span {
@@ -2725,7 +2726,7 @@ details[open]>.header__menu-item .icon-caret {
 .header__active-menu-item {
   transition: text-decoration-thickness var(--duration-short) ease;
   color: rgb(var(--color-foreground));
-  text-decoration: underline;
+  font-family: 'Poppins Medium';
 }
 
 .header__menu-item:hover .header__active-menu-item {}
