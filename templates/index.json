@@ -8,7 +8,7 @@
           "settings": {
             "heading": "new styles for 2023 coming soon!",
             "heading_size": "h0",
-            "heading_color": "#ffffff"
+            "heading_color": "#262626"
           }
         },
         "text": {
@@ -16,7 +16,7 @@
           "settings": {
             "text": "Introducing brand new styles for Sunnies - coming soon!",
             "text_style": "body",
-            "text_color": "#ffffff"
+            "text_color": "#000000"
           }
         },
         "button": {
@@ -37,7 +37,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/splash_3.png",
+        "image": "shopify:\/\/shop_images\/NEWDRAFTVERSION3424.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "adapt_height_first_image": false,
