@@ -256,7 +256,7 @@
           "type": "button",
           "settings": {
             "button_label": "see accessories",
-            "button_link": "shopify:\/\/collections\/accessories-1",
+            "button_link": "shopify:\/\/collections\/accessories",
             "button_style": "gradient"
           }
         }
