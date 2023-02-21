@@ -128,24 +128,15 @@
             "text": "<p>In the production stage, all of our glasses were put through multiple stress tests by our team of little testers!<\/p>",
             "text_color": "#000000"
           }
-        },
-        "template--17901391544612__4af42911-5bf0-4ac5-9c2b-889652b5ace0-16764768915ec184a3-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button",
-            "button_link": "",
-            "button_style": "regular"
-          }
         }
       },
       "block_order": [
         "template--17901391544612__4af42911-5bf0-4ac5-9c2b-889652b5ace0-16764768915ec184a3-0",
-        "template--17901391544612__4af42911-5bf0-4ac5-9c2b-889652b5ace0-16764768915ec184a3-1",
-        "template--17901391544612__4af42911-5bf0-4ac5-9c2b-889652b5ace0-16764768915ec184a3-2"
+        "template--17901391544612__4af42911-5bf0-4ac5-9c2b-889652b5ace0-16764768915ec184a3-1"
       ],
       "settings": {
         "text_background_image": "shopify:\/\/shop_images\/yellow_sun_bg-READY.png",
-        "content_image": "shopify:\/\/shop_images\/White_Sunnies_on_Toddler.jpg",
+        "content_image": "shopify:\/\/shop_images\/glasses_features-PNG.png",
         "image_position": "right",
         "content_image_height": 500,
         "padding_top": 36,
