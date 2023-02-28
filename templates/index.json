@@ -215,8 +215,8 @@
           "type": "button",
           "settings": {
             "button_label": "register & replace",
-            "button_link": "",
-            "button_style": "regular"
+            "button_link": "shopify:\/\/pages\/register-and-replace",
+            "button_style": "gradient"
           }
         }
       },
