@@ -83,6 +83,11 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "46fe99a5-1fdb-47fa-bba0-f1b94decc7d1": {
+          "type": "shopify:\/\/apps\/kaktus-preorder-now-presale\/blocks\/kaktus-bundle\/65705a60-a3b0-43ae-9dc8-15db78d76b3b",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -97,7 +102,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "46fe99a5-1fdb-47fa-bba0-f1b94decc7d1"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -161,11 +167,28 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "16801839235fd1392c": {
+      "type": "apps",
+      "blocks": {
+        "e3265b0d-133d-4b40-b9b0-ea20eb010f01": {
+          "type": "shopify:\/\/apps\/kaktus-preorder-now-presale\/blocks\/kaktus-bundle\/65705a60-a3b0-43ae-9dc8-15db78d76b3b",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "e3265b0d-133d-4b40-b9b0-ea20eb010f01"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "4af42911-5bf0-4ac5-9c2b-889652b5ace0",
-    "product-recommendations"
+    "product-recommendations",
+    "16801839235fd1392c"
   ]
 }
