@@ -105,6 +105,9 @@
         "share",
         "46fe99a5-1fdb-47fa-bba0-f1b94decc7d1"
       ],
+      "custom_css": [
+        ".product-form__input input[type=\"radio\"]:checked + label {background-color: #fad126;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "media_position": "left",
