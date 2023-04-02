@@ -64,7 +64,7 @@
         "template--17901391020324__3cc19618-fda7-453c-ba8d-68e2fd1573a7-168044440377141edd-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our online checkout is experiencing some technical difficulties, if you'd like to make an order, email us at hello@sunniesforkids.com with product, age, colour, and delivery information.<br\/><br\/>A member of our team will get in touch and manually fulfil it for you.<br\/><br\/>We apologize for the inconvenience. <\/p>",
+            "text": "<p>Our online checkout is experiencing some technical difficulties, if you'd like to make an order, email us at hello@sunniesforkids.com with product, age, colour, and delivery information.<br\/><br\/>A member of our team will get in touch and manually fulfil it for you.<br\/><br\/>We apologize for the inconvenience.  <\/p>",
             "text_color": "#000000"
           }
         }
@@ -85,7 +85,7 @@
     "1999dc95-010b-4e4d-b281-135629fff8ac": {
       "type": "contact-form",
       "settings": {
-        "heading": "let us know!",
+        "heading": "manual order form",
         "heading_size": "h1",
         "color_scheme": "background-1",
         "padding_top": 36,

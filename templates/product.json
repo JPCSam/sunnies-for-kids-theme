@@ -1,5 +1,37 @@
 {
   "sections": {
+    "42bdaf40-8186-4955-a3c5-77164ff70097": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17901391544612__42bdaf40-8186-4955-a3c5-77164ff70097-168044440377141edd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>oops!<\/p>",
+            "heading_size": "h1",
+            "heading_color": "#000000"
+          }
+        },
+        "template--17901391544612__42bdaf40-8186-4955-a3c5-77164ff70097-168044440377141edd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our online checkout is experiencing some technical difficulties, if you'd like to make an order, email us at hello@sunniesforkids.com with product, age, colour, and delivery information.<br\/><br\/>A member of our team will get in touch and manually fulfil it for you.<br\/><br\/>We apologize for the inconvenience.  <\/p>",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "template--17901391544612__42bdaf40-8186-4955-a3c5-77164ff70097-168044440377141edd-0",
+        "template--17901391544612__42bdaf40-8186-4955-a3c5-77164ff70097-168044440377141edd-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -181,6 +213,7 @@
     }
   },
   "order": [
+    "42bdaf40-8186-4955-a3c5-77164ff70097",
     "main",
     "4af42911-5bf0-4ac5-9c2b-889652b5ace0",
     "product-recommendations",
