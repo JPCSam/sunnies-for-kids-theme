@@ -76,11 +76,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "46fe99a5-1fdb-47fa-bba0-f1b94decc7d1": {
-          "type": "shopify:\/\/apps\/kaktus-preorder-now-presale\/blocks\/kaktus-bundle\/65705a60-a3b0-43ae-9dc8-15db78d76b3b",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -94,8 +89,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "46fe99a5-1fdb-47fa-bba0-f1b94decc7d1"
+        "share"
       ],
       "custom_css": [
         ".product-form__input input[type=\"radio\"]:checked + label {background-color: #fad126;}"
