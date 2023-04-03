@@ -126,6 +126,20 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
+        "blocks": {
+          "e47367d6-cf4f-4ba4-9f11-843346bb6cf6": {
+            "type": "announcement",
+            "settings": {
+              "text": "",
+              "text_alignment": "center",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "e47367d6-cf4f-4ba4-9f11-843346bb6cf6"
+        ],
         "custom_css": [
           ".announcement-bar {background-color: #ffcb72 !important;}"
         ],
