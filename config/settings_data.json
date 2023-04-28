@@ -135,10 +135,20 @@
               "color_scheme": "background-1",
               "link": ""
             }
+          },
+          "aced777c-1b3c-4afc-835b-e7138ba472c5": {
+            "type": "announcement",
+            "settings": {
+              "text": "Any orders placed over the Bank Holiday Weekend will be fulfilled on 2nd May",
+              "text_alignment": "center",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "e47367d6-cf4f-4ba4-9f11-843346bb6cf6"
+          "e47367d6-cf4f-4ba4-9f11-843346bb6cf6",
+          "aced777c-1b3c-4afc-835b-e7138ba472c5"
         ],
         "custom_css": [
           ".announcement-bar {background-color: #ffcb72 !important;}"
