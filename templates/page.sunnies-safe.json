@@ -8,7 +8,7 @@
           "settings": {
             "heading": "sunnies care and protection",
             "heading_size": "h0",
-            "heading_color": "#3b3b3b"
+            "heading_color": "#ffffff"
           }
         }
       },
@@ -16,20 +16,20 @@
         "template--17887944737060__b6ea8a6e-9eab-42c7-8b7f-d3ce652f5b3c-16763726016acbbe13-0"
       ],
       "custom_css": [
-        ".banner__box {border-radius: 20px; opacity: 0.95; background: rgb(250, 209, 38) !important; background: radial-gradient( circle, rgba(250, 209, 38, 1) 0%, rgba(255, 84, 79, 1) 100% ) !important;}"
+
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/temp_sunniessafe.jpg",
+        "image": "shopify:\/\/shop_images\/P1003912_c.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "main": {
@@ -237,7 +237,7 @@
         "template--17901391315236__610c3ff8-6abd-4d6c-96c8-f5830acce518-16768922151acb1a20-2"
       ],
       "settings": {
-        "text_background_image": "shopify:\/\/shop_images\/lilac_sun_bg.png",
+        "text_background_image": "shopify:\/\/shop_images\/blue_sun_bg-READY.png",
         "content_image": "shopify:\/\/shop_images\/White_Sunnies_on_Toddler.jpg",
         "image_position": "right",
         "content_image_height": 500,
