@@ -141,7 +141,7 @@
           "aced777c-1b3c-4afc-835b-e7138ba472c5"
         ],
         "custom_css": [
-          ".announcement-bar {background-color: #ffcb72 !important;}"
+          ".announcement-bar {background-color: #ffcb72 !important; color: #000000 !important;}"
         ],
         "settings": {
         }
