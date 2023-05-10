@@ -2,44 +2,10 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "new styles for 2023 have arrived!",
-            "heading_size": "h0",
-            "heading_color": "#262626"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Introducing our brand new styles for 2023 - click below!",
-            "text_style": "body",
-            "text_color": "#000000"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "see our new styles",
-            "button_link_1": "shopify:\/\/collections\/new-styles-for-2023",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/NEWDRAFTVERSION3424.png",
+        "image": "shopify:\/\/shop_images\/Small_Wave_Bottom.png",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-left",
         "show_text_box": false,
@@ -72,8 +38,11 @@
         "template--17901391020324__f57b1d0a-8514-410e-83c6-a9582c0b66fe-1683643813ac8a87c4-0",
         "template--17901391020324__f57b1d0a-8514-410e-83c6-a9582c0b66fe-1683643813ac8a87c4-1"
       ],
+      "custom_css": [
+        ".image-with-text .global-media-settings {border-radius: 40px !important;}"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/TBS-NEC-23---Logo.jpg",
+        "image": "shopify:\/\/shop_images\/IMG_9026_c.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
