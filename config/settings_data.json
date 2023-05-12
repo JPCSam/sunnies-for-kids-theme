@@ -153,7 +153,7 @@
         ],
         "settings": {
           "color_scheme": "background-1",
-          "logo": "{{ shop.brand.logo }}",
+          "logo": "shopify:\/\/shop_images\/Sunnies_Logo_Trim_smaller.webp",
           "logo_width": 150,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -227,15 +227,7 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "1097096201824731535": {
-        "type": "shopify:\/\/apps\/kaktus-preorder-now-presale\/blocks\/app-embeded\/65705a60-a3b0-43ae-9dc8-15db78d76b3b",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Default": {
