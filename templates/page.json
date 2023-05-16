@@ -3,7 +3,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        ".hulk-powered-wrapper {display: none;}"
+        ".hulk-powered-wrapper {display: none !important;}"
       ],
       "settings": {
         "padding_top": 28,
