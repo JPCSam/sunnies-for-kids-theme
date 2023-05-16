@@ -50,45 +50,6 @@
         "show_text_below": false
       }
     },
-    "f57b1d0a-8514-410e-83c6-a9582c0b66fe": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--17901391020324__f57b1d0a-8514-410e-83c6-a9582c0b66fe-1683643813ac8a87c4-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "meet the team!",
-            "heading_size": "h1"
-          }
-        },
-        "template--17901391020324__f57b1d0a-8514-410e-83c6-a9582c0b66fe-1683643813ac8a87c4-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>If you're looking for high-quality sunglasses for your little ones, don't miss out on your chance to meet the team at The Baby Show at the NEC in Birmingham from 12th-14th May. You can find us at <strong>stall F42<\/strong>!<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--17901391020324__f57b1d0a-8514-410e-83c6-a9582c0b66fe-1683643813ac8a87c4-0",
-        "template--17901391020324__f57b1d0a-8514-410e-83c6-a9582c0b66fe-1683643813ac8a87c4-1"
-      ],
-      "custom_css": [
-        ".image-with-text .global-media-settings {border-radius: 40px !important;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_9026_c.webp",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -360,7 +321,6 @@
   },
   "order": [
     "image_banner",
-    "f57b1d0a-8514-410e-83c6-a9582c0b66fe",
     "rich_text",
     "d827b4c8-a6c7-495d-8656-dd16e15b3a7d",
     "01e6c8fb-b947-4b53-acbe-c5a532ebe0ad",
