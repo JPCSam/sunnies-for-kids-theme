@@ -149,8 +149,7 @@
       "header": {
         "type": "header",
         "custom_css": [
-          ".header-wrapper {background-color: #fff5e4;}",
-          ".hulk-powered-wrapper {display: none !important;}"
+          ".header-wrapper {background-color: #fff5e4;}"
         ],
         "settings": {
           "color_scheme": "background-1",
