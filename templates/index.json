@@ -75,12 +75,15 @@
         "template--17901391020324__ce319ac8-2f94-4378-9465-9ef781c04fb6-16848371734f397432-0",
         "template--17901391020324__ce319ac8-2f94-4378-9465-9ef781c04fb6-16848371734f397432-1"
       ],
+      "custom_css": [
+        "img {border-radius: 40px;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/team_smaller.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
