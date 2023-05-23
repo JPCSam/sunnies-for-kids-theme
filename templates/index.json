@@ -81,7 +81,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/team_smaller.webp",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
