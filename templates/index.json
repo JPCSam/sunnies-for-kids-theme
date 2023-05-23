@@ -50,27 +50,35 @@
         "show_text_below": false
       }
     },
-    "ce319ac8-2f94-4378-9465-9ef781c04fb6": {
+    "8950de05-c598-4245-848b-9b692a6337bc": {
       "type": "image-with-text",
       "blocks": {
-        "template--17901391020324__ce319ac8-2f94-4378-9465-9ef781c04fb6-16848371734f397432-0": {
+        "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-0": {
           "type": "heading",
           "settings": {
             "heading": "we're back!",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
-        "template--17901391020324__ce319ac8-2f94-4378-9465-9ef781c04fb6-16848371734f397432-1": {
+        "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-1": {
           "type": "text",
           "settings": {
             "text": "<p>Hi all, we'll be in Liverpool on the 3rd and 4th of June for our return to The Baby & Toddler show! We absolutely loved meeting everyone at Sandown, and can't wait to meet more! This time, we're joined by Jason, Jade and Helen!<br\/><br\/>You can find us at stall E14, see you there!<\/p>",
             "text_style": "body"
           }
+        },
+        "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "template--17901391020324__ce319ac8-2f94-4378-9465-9ef781c04fb6-16848371734f397432-0",
-        "template--17901391020324__ce319ac8-2f94-4378-9465-9ef781c04fb6-16848371734f397432-1"
+        "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-0",
+        "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-1",
+        "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-2"
       ],
       "custom_css": [
         "img {border-radius: 40px;}"
@@ -78,9 +86,9 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/team_smaller.webp",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "middle",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
@@ -360,7 +368,7 @@
   },
   "order": [
     "image_banner",
-    "ce319ac8-2f94-4378-9465-9ef781c04fb6",
+    "8950de05-c598-4245-848b-9b692a6337bc",
     "rich_text",
     "d827b4c8-a6c7-495d-8656-dd16e15b3a7d",
     "01e6c8fb-b947-4b53-acbe-c5a532ebe0ad",
