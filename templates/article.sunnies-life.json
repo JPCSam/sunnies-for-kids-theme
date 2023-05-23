@@ -36,9 +36,37 @@
       ],
       "settings": {
       }
+    },
+    "49d2273f-b558-4b3b-9ed4-77d0a44e930d": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "new-styles-for-2023",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "49d2273f-b558-4b3b-9ed4-77d0a44e930d"
   ]
 }
