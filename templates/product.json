@@ -13,6 +13,31 @@
           "settings": {
           }
         },
+        "fb8192ed-c4b7-4258-82d1-f62bff06f59d": {
+          "type": "shopify:\/\/apps\/clearpay-on-site-messaging\/blocks\/payments-messaging\/5d763983-d3e6-4888-9966-4e1170b26ae9",
+          "settings": {
+            "text_align": "inherit",
+            "margin_top": 16,
+            "margin_bottom": 16,
+            "color": "",
+            "size": "md",
+            "intro_text": "or",
+            "show_interest_free": true,
+            "payment_amount_is_bold": true,
+            "show_with": true,
+            "logo_type": "badge",
+            "logo_theme": "black-on-mint",
+            "modal_link_style": "circled-info-icon",
+            "modal_theme": "mint",
+            "breakpoint": 749,
+            "text_align_mobile": "inherit",
+            "margin_top_mobile": 16,
+            "margin_bottom_mobile": 16,
+            "show_lower_limit": true,
+            "show_upper_limit": true,
+            "show_if_outside_limits": true
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -81,6 +106,7 @@
       "block_order": [
         "title",
         "price",
+        "fb8192ed-c4b7-4258-82d1-f62bff06f59d",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -159,16 +185,6 @@
     },
     "16801839235fd1392c": {
       "type": "apps",
-      "blocks": {
-        "e3265b0d-133d-4b40-b9b0-ea20eb010f01": {
-          "type": "shopify:\/\/apps\/kaktus-preorder-now-presale\/blocks\/kaktus-bundle\/65705a60-a3b0-43ae-9dc8-15db78d76b3b",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "e3265b0d-133d-4b40-b9b0-ea20eb010f01"
-      ],
       "settings": {
         "include_margins": true
       }
