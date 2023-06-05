@@ -192,16 +192,6 @@
     },
     "16801839235fd1392c": {
       "type": "apps",
-      "blocks": {
-        "7c1ae62f-c716-41a5-a689-df72e7d65487": {
-          "type": "shopify:\/\/apps\/easy-product-addons\/blocks\/spice_addons\/0099190e-a0cb-49e7-8d26-026c9d26f337",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "7c1ae62f-c716-41a5-a689-df72e7d65487"
-      ],
       "settings": {
         "include_margins": true
       }
