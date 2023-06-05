@@ -4,24 +4,35 @@
       "type": "image-banner",
       "blocks": {
         "be52ab6f-48f2-46f6-bf1e-23aad051c4a7": {
+        "be52ab6f-48f2-46f6-bf1e-23aad051c4a7": {
           "type": "heading",
+          "disabled": true,
           "settings": {
+            "heading": "flexible, fun, and safe in the sun!",
+            "heading_size": "h1",
+            "heading_color": "#000000"
             "heading": "flexible, fun, and safe in the sun!",
             "heading_size": "h1",
             "heading_color": "#000000"
           }
         },
         "f82f2e05-212e-41cd-8d2d-969f5ea21c1e": {
+        "f82f2e05-212e-41cd-8d2d-969f5ea21c1e": {
           "type": "text",
+          "disabled": true,
           "settings": {
+            "text": "Explore our new kids sunglasses styles, offering 100% UV Protection!",
             "text": "Explore our new kids sunglasses styles, offering 100% UV Protection!",
             "text_style": "body",
             "text_color": "#000000"
           }
         },
         "6f4a5136-b6d8-45d9-b4f2-60d7123dfbcd": {
+        "6f4a5136-b6d8-45d9-b4f2-60d7123dfbcd": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
+            "button_label_1": "view collection",
             "button_label_1": "view collection",
             "button_link_1": "shopify:\/\/collections\/new-styles-for-2023",
             "button_style_secondary_1": false,
@@ -35,10 +46,14 @@
         "be52ab6f-48f2-46f6-bf1e-23aad051c4a7",
         "f82f2e05-212e-41cd-8d2d-969f5ea21c1e",
         "6f4a5136-b6d8-45d9-b4f2-60d7123dfbcd"
+        "be52ab6f-48f2-46f6-bf1e-23aad051c4a7",
+        "f82f2e05-212e-41cd-8d2d-969f5ea21c1e",
+        "6f4a5136-b6d8-45d9-b4f2-60d7123dfbcd"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Small_Wave_Bottom_Basic.webp",
         "image_overlay_opacity": 0,
+        "image_height": "medium",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-left",
@@ -51,20 +66,33 @@
       }
     },
     "8950de05-c598-4245-848b-9b692a6337bc": {
+    "8950de05-c598-4245-848b-9b692a6337bc": {
       "type": "image-with-text",
       "blocks": {
         "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-0": {
+        "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-0": {
           "type": "heading",
           "settings": {
+            "heading": "we're back!",
             "heading": "we're back!",
             "heading_size": "h1"
           }
         },
         "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-1": {
+        "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-1": {
           "type": "text",
           "settings": {
             "text": "<p>Hi all, we'll be in Liverpool on the 3rd and 4th of June for our return to The Baby & Toddler show! We absolutely loved meeting everyone at Sandown, and can't wait to meet more! This time, we're joined by Jason and Jade!<br\/><br\/>You can find us at stall E14, see you there!<\/p><p>We wrote about our time there last time, check it out below!<\/p>",
+            "text": "<p>Hi all, we'll be in Liverpool on the 3rd and 4th of June for our return to The Baby & Toddler show! We absolutely loved meeting everyone at Sandown, and can't wait to meet more! This time, we're joined by Jason and Jade!<br\/><br\/>You can find us at stall E14, see you there!<\/p><p>We wrote about our time there last time, check it out below!<\/p>",
             "text_style": "body"
+          }
+        },
+        "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "read sunnies life",
+            "button_link": "shopify:\/\/blogs\/news\/nec-show-wrap-up"
           }
         },
         "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-2": {
@@ -83,14 +111,23 @@
       ],
       "custom_css": [
         "img {border-radius: 40px;}"
+        "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-0",
+        "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-1",
+        "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-2"
+      ],
+      "custom_css": [
+        "img {border-radius: 40px;}"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/team_smaller.webp",
         "image": "shopify:\/\/shop_images\/team_smaller.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
@@ -177,6 +214,7 @@
           "type": "text",
           "settings": {
             "text": "<p>All our Sunnies sunglasses offer 100% UVA\/UVB protection against strong sunlight. The lenses are filter category 3 equivalent to UV400 and are shatter resistant.<\/p>",
+            "text": "<p>All our Sunnies sunglasses offer 100% UVA\/UVB protection against strong sunlight. The lenses are filter category 3 equivalent to UV400 and are shatter resistant.<\/p>",
             "text_color": "#000000"
           }
         },
@@ -220,6 +258,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Register your glasses within 30 days of purchase, and if broken during the <br\/>first year you will receive a one-time replacement pair for free! All you pay is the postage.<\/p>",
+            "text": "<p>Register your glasses within 30 days of purchase, and if broken during the <br\/>first year you will receive a one-time replacement pair for free! All you pay is the postage.<\/p>",
             "text_color": "#000000"
           }
         },
@@ -227,6 +266,8 @@
           "type": "button",
           "settings": {
             "button_label": "register & replace",
+            "button_link": "shopify:\/\/pages\/register-and-replace",
+            "button_style": "gradient"
             "button_link": "shopify:\/\/pages\/register-and-replace",
             "button_style": "gradient"
           }
@@ -369,6 +410,7 @@
   },
   "order": [
     "image_banner",
+    "8950de05-c598-4245-848b-9b692a6337bc",
     "8950de05-c598-4245-848b-9b692a6337bc",
     "rich_text",
     "d827b4c8-a6c7-495d-8656-dd16e15b3a7d",

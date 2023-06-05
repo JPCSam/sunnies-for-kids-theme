@@ -1,0 +1,132 @@
+{{ 'full-width-section-liquid.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .text-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    padding-left: {{ section.settings.padding_left | times: 0.75 | round: 0 }}px;
+    padding-right: {{ section.settings.padding_right | times: 0.75 | round: 0 }}px;
+  }
+
+  .custom-usp-wrapper-padding {
+      padding-top: {{ section.settings.padding_to_add }}px;
+  }
+  @media screen and (max-width: 750px) {
+    .custom-usp-wrapper-padding {
+      padding-top: {{ section.settings.padding_to_add | plus: section.settings.extra_padding_to_add }}px;
+    }
+  }
+
+  @media screen and (min-width: 750px) {
+    .text-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+      padding-left: {{ section.settings.padding_left }}px;
+      padding-right: {{ section.settings.padding_right }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="background-primary no-heading">
+  <div class="custom-usp-wrapper custom-usp-wrapper-padding">
+    <div class="custom-usp-badge" style="background-color: {{ section.settings.background_colour }}">
+      {%- for block in section.blocks -%}
+        <div class="custom-usp-item">
+          {%- if block.settings.usp_icon != blank -%}
+            <div class="custom-usp-icon">
+              {{
+                block.settings.usp_icon
+                | image_url: width: section.settings.icon_size
+                | image_tag: loading: 'lazy', sizes: sizes, width: section.settings.icon_size, class: ''
+              }}
+            </div>
+          {%- endif -%}
+          <div class="custom-usp-text" style="color: {{section.settings.text_colour}}">
+            {{ block.settings.usp_text }}
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom USP",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_colour",
+      "default": "#000000",
+      "label": "Background Colour"
+    },
+    {
+      "type": "color",
+      "id": "text_colour",
+      "default": "#000000",
+      "label": "Text Colour"
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Icon Size",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_to_add",
+      "min": 0,
+      "max": 200,
+      "step": 20,
+      "unit": "px",
+      "label": "Padding To Add",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "extra_padding_to_add",
+      "min": 0,
+      "max": 200,
+      "step": 20,
+      "unit": "px",
+      "label": "Mobile Padding To Add",
+      "default": 100
+    }
+  ],
+  "blocks": [
+    {
+      "type": "usp",
+      "name": "USP",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "usp_icon",
+          "label": "Icon"
+        },
+        {
+          "type": "richtext",
+          "id": "usp_text",
+          "default": "<p>Rich text example text</p>",
+          "label": "USP Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Default USP",
+      "blocks": [
+        {
+          "type": "usp"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
