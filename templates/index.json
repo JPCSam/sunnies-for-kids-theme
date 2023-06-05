@@ -84,8 +84,8 @@
         "background_colour": "#fad126",
         "text_colour": "#ffffff",
         "icon_size": 36,
-        "padding_to_add": 100,
-        "extra_padding_to_add": 100
+        "padding_to_add": 80,
+        "extra_padding_to_add": 40
       }
     },
     "8950de05-c598-4245-848b-9b692a6337bc": {
