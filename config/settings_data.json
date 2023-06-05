@@ -107,10 +107,10 @@
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "social_twitter_link": "",
-    "social_facebook_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/sunniesforkids\/",
     "social_pinterest_link": "",
     "social_instagram_link": "https:\/\/www.instagram.com\/sunniesforkids\/",
-    "social_tiktok_link": "",
+    "social_tiktok_link": "https:\/\/tiktok.com\/@sunniesforkids",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
     "social_youtube_link": "",
@@ -127,21 +127,22 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "announcement-bar-0": {
+          "aced777c-1b3c-4afc-835b-e7138ba472c5": {
             "type": "announcement",
             "settings": {
-              "text": "Visit us @ The Baby and Toddler Show 31st March - 2nd April Sandown Park",
+              "text": "Join us @ The Baby & Toddler Show, Exhibition Centre Liverpool 3rd-4th June",
               "text_alignment": "center",
-              "color_scheme": "background-1",
+              "color_scheme": "accent-1",
               "link": ""
             }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "aced777c-1b3c-4afc-835b-e7138ba472c5"
         ],
         "custom_css": [
-          ".announcement-bar {background-color: #ffcb72 !important;}"
+          ".announcement-bar {background-color: #ffcb72 !important;}",
+          ".announcement-bar__message {color: #000000 !important;}"
         ],
         "settings": {
         }
@@ -153,7 +154,7 @@
         ],
         "settings": {
           "color_scheme": "background-1",
-          "logo": "{{ shop.brand.logo }}",
+          "logo": "shopify:\/\/shop_images\/Sunnies_Logo_Trim_smaller.webp",
           "logo_width": 150,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -188,7 +189,7 @@
             "type": "text",
             "settings": {
               "heading": "Get In Touch",
-              "subtext": "<p>Tel: 01344 952879<br\/>Email: hello@sunniesforkids.com<br\/><\/p>"
+              "subtext": "<p>Tel: 01344 952879<br\/>Email: hello@sunniesforkids.com<\/p><p><\/p><p><a href=\"\/pages\/terms-of-service\" title=\"Terms of Service\">Terms Of Service<\/a><br\/><a href=\"\/pages\/privacy-policy\" title=\"Privacy Policy\">Privacy Policy<\/a><br\/><a href=\"\/pages\/refund-policy\" title=\"Refund Policy\">Refund Policy<\/a><br\/><a href=\"\/pages\/shipping-policy\" title=\"Shipping Policy\">Shipping Policy<\/a><br\/><\/p>"
             }
           }
         },
@@ -227,7 +228,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "319724205969189013": {
+        "type": "shopify:\/\/apps\/hulk-form-builder\/blocks\/app-embed\/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Default": {

@@ -3,13 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -18,6 +11,31 @@
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "fb8192ed-c4b7-4258-82d1-f62bff06f59d": {
+          "type": "shopify:\/\/apps\/clearpay-on-site-messaging\/blocks\/payments-messaging\/5d763983-d3e6-4888-9966-4e1170b26ae9",
+          "settings": {
+            "text_align": "inherit",
+            "margin_top": 16,
+            "margin_bottom": 16,
+            "color": "",
+            "size": "sm",
+            "intro_text": "or",
+            "show_interest_free": true,
+            "payment_amount_is_bold": true,
+            "show_with": true,
+            "logo_type": "badge",
+            "logo_theme": "black-on-mint",
+            "modal_link_style": "circled-info-icon",
+            "modal_theme": "mint",
+            "breakpoint": 749,
+            "text_align_mobile": "inherit",
+            "margin_top_mobile": 16,
+            "margin_bottom_mobile": 16,
+            "show_lower_limit": true,
+            "show_upper_limit": true,
+            "show_if_outside_limits": true
           }
         },
         "variant_picker": {
@@ -56,7 +74,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "",
+            "content": "<p>We dispatch within 2-3 working days of ordering.  Shipping cost £3.95.<\/p><p>Returns are only accepted if the product is damaged or broken when received.<\/p>",
             "page": ""
           }
         },
@@ -74,7 +92,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
-            "content": "<p>We care about looking after your sunglasses, so we have put together some simple suggestions to help you care for them. <a href=\"\/pages\/sunnies-safe\" title=\"Sunnies Safe\">Click here to see Sunnies Smart<\/a><\/p>",
+            "content": "<p>We care about looking after your sunglasses, so we have put together some simple suggestions to help you care for them. <a href=\"\/pages\/sunnies-care\" title=\"Sunnies Care\">Click here to see Sunnies Smart<\/a><\/p>",
             "page": ""
           }
         },
@@ -86,9 +104,9 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "price",
+        "fb8192ed-c4b7-4258-82d1-f62bff06f59d",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -99,11 +117,14 @@
         "collapsible-row-3",
         "share"
       ],
+      "custom_css": [
+        ".product-form__input input[type=\"radio\"]:checked + label {background-color: #fad126;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "media_position": "left",
-        "gallery_layout": "stacked",
-        "media_size": "large",
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "medium",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
@@ -148,7 +169,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "you may also like",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
@@ -157,15 +178,22 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "padding_top": 36,
         "padding_bottom": 28
+      }
+    },
+    "16801839235fd1392c": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
       }
     }
   },
   "order": [
     "main",
     "4af42911-5bf0-4ac5-9c2b-889652b5ace0",
-    "product-recommendations"
+    "product-recommendations",
+    "16801839235fd1392c"
   ]
 }

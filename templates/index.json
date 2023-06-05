@@ -3,26 +3,29 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
+        "be52ab6f-48f2-46f6-bf1e-23aad051c4a7": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "new styles for 2023 coming soon!",
-            "heading_size": "h0",
-            "heading_color": "#262626"
+            "heading": "flexible, fun, and safe in the sun!",
+            "heading_size": "h1",
+            "heading_color": "#000000"
           }
         },
-        "text": {
+        "f82f2e05-212e-41cd-8d2d-969f5ea21c1e": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "Introducing brand new styles for Sunnies - coming soon!",
+            "text": "Explore our new kids sunglasses styles, offering 100% UV Protection!",
             "text_style": "body",
             "text_color": "#000000"
           }
         },
-        "button": {
+        "6f4a5136-b6d8-45d9-b4f2-60d7123dfbcd": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
-            "button_label_1": "see our new styles",
+            "button_label_1": "view collection",
             "button_link_1": "shopify:\/\/collections\/new-styles-for-2023",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -32,14 +35,14 @@
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "be52ab6f-48f2-46f6-bf1e-23aad051c4a7",
+        "f82f2e05-212e-41cd-8d2d-969f5ea21c1e",
+        "6f4a5136-b6d8-45d9-b4f2-60d7123dfbcd"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/NEWDRAFTVERSION3424.png",
+        "image": "shopify:\/\/shop_images\/liverpool.png",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-left",
         "show_text_box": false,
@@ -50,36 +53,48 @@
         "show_text_below": false
       }
     },
-    "760ae518-158d-4ddc-8218-5f1115704ccd": {
+    "8950de05-c598-4245-848b-9b692a6337bc": {
       "type": "image-with-text",
       "blocks": {
-        "1d2e81eb-1107-4576-93d9-09ff72d11f0a": {
+        "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-0": {
           "type": "heading",
           "settings": {
-            "heading": "meet the sunnies team!",
+            "heading": "we're back!",
             "heading_size": "h1"
           }
         },
-        "7e58803a-ecf7-4a5f-b021-510c720deb54": {
+        "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We are excited to be attending the Sandown Baby Show! Come meet our team, and be in with a chance to win one of our amazing daily giveaways! The show will mark the beginning of the launch of our Sunnies brand New Spring\/Summer range! It will be a fantastic chance to get a look at our new colours and styles, plus receive an <strong>exclusive show-only offer <\/strong>on any of our products.<\/p><p><br\/>Don’t miss out join us at <strong>Stand C22<\/strong>!<\/p>",
+            "text": "<p>Hi all, we'll be in Liverpool on the 3rd and 4th of June for our return to The Baby & Toddler show! We absolutely loved meeting everyone at Sandown, and can't wait to meet more! This time, we're joined by Jason and Jade!<br\/><br\/>You can find us at stall E14, see you there!<\/p><p>We wrote about our time there last time, check it out below!<\/p>",
             "text_style": "body"
+          }
+        },
+        "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "read sunnies life",
+            "button_link": "shopify:\/\/blogs\/news\/nec-show-wrap-up"
           }
         }
       },
       "block_order": [
-        "1d2e81eb-1107-4576-93d9-09ff72d11f0a",
-        "7e58803a-ecf7-4a5f-b021-510c720deb54"
+        "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-0",
+        "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-1",
+        "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-2"
+      ],
+      "custom_css": [
+        "img {border-radius: 40px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/BTS23_SP_Vertical.png",
+        "image": "shopify:\/\/shop_images\/team_smaller.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "middle",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "content_layout": "overlap",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -164,7 +179,7 @@
         "template--17567828771108__01e6c8fb-b947-4b53-acbe-c5a532ebe0ad-16739590888a94cc3d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>All our sunnies sunglasses offer 100% UVA\/UVB protection against strong sunlight. The lenses are filter category 3 equivalent to UV400 and are shatter resistant.<\/p>",
+            "text": "<p>All our Sunnies sunglasses offer 100% UVA\/UVB protection against strong sunlight. The lenses are filter category 3 equivalent to UV400 and are shatter resistant.<\/p>",
             "text_color": "#000000"
           }
         },
@@ -207,7 +222,7 @@
         "template--17502509498660__5483315d-3e05-404c-96a8-ae9acb863bef-1673360373cf6d5a21-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Register your glasses within 30 days of purchase, and if broken during the <br\/>first year you will receive a one-time replacement pair free! All you pay is the postage.<\/p>",
+            "text": "<p>Register your glasses within 30 days of purchase, and if broken during the <br\/>first year you will receive a one-time replacement pair for free! All you pay is the postage.<\/p>",
             "text_color": "#000000"
           }
         },
@@ -215,8 +230,8 @@
           "type": "button",
           "settings": {
             "button_label": "register & replace",
-            "button_link": "",
-            "button_style": "regular"
+            "button_link": "shopify:\/\/pages\/register-and-replace",
+            "button_style": "gradient"
           }
         }
       },
@@ -357,7 +372,7 @@
   },
   "order": [
     "image_banner",
-    "760ae518-158d-4ddc-8218-5f1115704ccd",
+    "8950de05-c598-4245-848b-9b692a6337bc",
     "rich_text",
     "d827b4c8-a6c7-495d-8656-dd16e15b3a7d",
     "01e6c8fb-b947-4b53-acbe-c5a532ebe0ad",

@@ -2898,6 +2898,20 @@ details-disclosure>details {
   }
 }
 
+@media screen and (max-width: 749px) {
+  .banner__media {
+    display: none !important;
+  }
+}
+
+.banner__media-mobile {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
 .global-media-settings {
   position: relative;
   border-radius: var(--media-radius);
@@ -3027,4 +3041,55 @@ details-disclosure>details {
   border-radius: 50%;
   display: inline-block;
   border: solid 0.1rem rgba(0, 0, 0, 0.5);
+}
+
+.custom-usp-wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.custom-usp-badge {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 700px;
+  max-width: 100%;
+  border-radius: 40px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: auto;
+  padding: 0 20px;
+  gap: 15px;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 750px) {
+  .custom-usp-badge {
+    grid-template-columns: minmax(0, 1fr) !important;
+    padding: 15px 30px;
+    gap: 5px;
+  }
+}
+
+.custom-usp-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.custom-usp-icon {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-usp-icon>img {
+  height: 100%;
+}
+
+.custom-usp-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
 }
