@@ -138,40 +138,6 @@
         "padding_bottom": 12
       }
     },
-    "4af42911-5bf0-4ac5-9c2b-889652b5ace0": {
-      "type": "full-width-section",
-      "blocks": {
-        "template--17901391544612__4af42911-5bf0-4ac5-9c2b-889652b5ace0-16764768915ec184a3-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>comfortable, snug, and safe<\/p>",
-            "heading_size": "h1",
-            "heading_color": "#000000"
-          }
-        },
-        "template--17901391544612__4af42911-5bf0-4ac5-9c2b-889652b5ace0-16764768915ec184a3-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>In the production stage, all of our glasses were put through multiple stress tests by our team of little testers!<\/p>",
-            "text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "template--17901391544612__4af42911-5bf0-4ac5-9c2b-889652b5ace0-16764768915ec184a3-0",
-        "template--17901391544612__4af42911-5bf0-4ac5-9c2b-889652b5ace0-16764768915ec184a3-1"
-      ],
-      "settings": {
-        "text_background_image": "shopify:\/\/shop_images\/yellow_sun_bg-READY.png",
-        "content_image": "shopify:\/\/shop_images\/glasses_features-PNG.png",
-        "image_position": "right",
-        "content_image_height": 500,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_left": 36,
-        "padding_right": 36
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -198,7 +164,6 @@
   },
   "order": [
     "main",
-    "4af42911-5bf0-4ac5-9c2b-889652b5ace0",
     "product-recommendations",
     "16801839235fd1392c"
   ]
