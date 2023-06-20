@@ -37,7 +37,7 @@
         "6f4a5136-b6d8-45d9-b4f2-60d7123dfbcd"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/vogue.png",
+        "image": "shopify:\/\/shop_images\/vogue_c78756de-22bb-461e-86e2-a54dc3e95920.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -50,7 +50,44 @@
         "show_text_below": false
       }
     },
-    "8950de05-c598-4245-848b-9b692a6337bc": {
+    "46f46434-ee46-4b5f-a0c2-abe58bc14adc": {
+      "type": "custom-usp",
+      "blocks": {
+        "template--17901391020324__46f46434-ee46-4b5f-a0c2-abe58bc14adc-16859560344886d897-0": {
+          "type": "usp",
+          "settings": {
+            "usp_icon": "shopify:\/\/shop_images\/sun-solid_fbc0dff8-1fb2-4eca-a13f-3568ebc15d86.svg",
+            "usp_text": "<p>100% UV A+B Protection<\/p>"
+          }
+        },
+        "88f2b0f4-8b35-4373-b498-c4c0f7c4bf88": {
+          "type": "usp",
+          "settings": {
+            "usp_icon": "shopify:\/\/shop_images\/sunglasses-solid_182e9579-937d-445a-8e93-47362b81ec7a.svg",
+            "usp_text": "<p>Shatter Resistant Design<\/p>"
+          }
+        },
+        "bec2572b-2e74-4b87-bcce-81cbcf93a9f8": {
+          "type": "usp",
+          "settings": {
+            "usp_icon": "shopify:\/\/shop_images\/truck-fast-solid_6a01ba10-8c8b-44a3-816a-a7b0c4efb610.svg",
+            "usp_text": "<p>24-Hour Delivery<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17901391020324__46f46434-ee46-4b5f-a0c2-abe58bc14adc-16859560344886d897-0",
+        "88f2b0f4-8b35-4373-b498-c4c0f7c4bf88",
+        "bec2572b-2e74-4b87-bcce-81cbcf93a9f8"
+      ],
+      "settings": {
+        "background_colour": "#fad126",
+        "text_colour": "#ffffff",
+        "icon_size": 36,
+        "padding_to_add": 80,
+        "extra_padding_to_add": 40
+      }
+    },
     "8950de05-c598-4245-848b-9b692a6337bc": {
       "type": "image-with-text",
       "disabled": true,
