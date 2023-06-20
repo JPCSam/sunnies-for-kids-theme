@@ -130,7 +130,7 @@
           "aced777c-1b3c-4afc-835b-e7138ba472c5": {
             "type": "announcement",
             "settings": {
-              "text": "Join us @ The Baby & Toddler Show, Exhibition Centre Liverpool 3rd-4th June",
+              "text": "What is the sun’s favourite dessert in summer? An ice cream sundae.",
               "text_alignment": "center",
               "color_scheme": "accent-1",
               "link": ""
@@ -232,6 +232,12 @@
     "blocks": {
       "319724205969189013": {
         "type": "shopify:\/\/apps\/hulk-form-builder\/blocks\/app-embed\/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "11432920177897217407": {
+        "type": "shopify:\/\/apps\/easy-product-addons\/blocks\/speedup_link\/0099190e-a0cb-49e7-8d26-026c9d26f337",
         "disabled": false,
         "settings": {
         }
