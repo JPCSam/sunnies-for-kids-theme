@@ -14,7 +14,7 @@
         "f82f2e05-212e-41cd-8d2d-969f5ea21c1e": {
           "type": "text",
           "settings": {
-            "text": "Explore our new kids sunglasses styles, offering 100% UV Protection!",
+            "text": "Explore our new kids sunglasses styles, now featured in British Vogue!",
             "text_style": "body",
             "text_color": "#000000"
           }
@@ -37,7 +37,7 @@
         "6f4a5136-b6d8-45d9-b4f2-60d7123dfbcd"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Small_Wave_Bottom_Basic.webp",
+        "image": "shopify:\/\/shop_images\/vogue.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
