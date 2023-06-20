@@ -1,0 +1,15 @@
+.image-banner-ad {}
+
+.image-banner-ad-wrapper {}
+
+.image-banner-ad-wrapper--mobile {
+    display: none !important;
+}
+
+@media screen and (max-width: 750px) {
+    .image-banner-ad-wrapper {
+        display: none !important;
+    }
+
+    .image-banner-ad-wrapper--mobile {}
+}

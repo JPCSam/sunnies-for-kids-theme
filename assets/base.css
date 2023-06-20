@@ -3093,3 +3093,40 @@ details-disclosure>details {
   align-items: center;
   padding: 0 15px;
 }
+
+.image-banner-ad {
+  height: 100%;
+  overflow: hidden;
+}
+
+.image-banner-ad-wrapper {
+  height: 100% !important;
+}
+
+.image-banner-ad-wrapper>img {
+  height: 100%;
+  width: 100% !important;
+  object-fit: cover;
+}
+
+.image-banner-ad-wrapper--mobile {
+  display: none;
+}
+
+.image-banner-ad-wrapper--mobile>img {
+  height: 100%;
+  width: 100% !important;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 750px) {
+  .image-banner-ad-wrapper {
+    display: none !important;
+  }
+
+  .image-banner-ad-wrapper--mobile {
+    display: block !important;
+    height: 100%;
+    object-fit: cover;
+  }
+}
