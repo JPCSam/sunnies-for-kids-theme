@@ -3065,9 +3065,13 @@ details-disclosure>details {
 
 @media screen and (max-width: 750px) {
   .custom-usp-badge {
+    position: relative !important;
+    left: auto !important;
+    transform: none !important;
     grid-template-columns: minmax(0, 1fr) !important;
     padding: 15px 30px;
     gap: 5px;
+    border-radius: 0 !important;
   }
 }
 
