@@ -73,8 +73,8 @@
         "bec2572b-2e74-4b87-bcce-81cbcf93a9f8": {
           "type": "usp",
           "settings": {
-            "usp_icon": "shopify:\/\/shop_images\/truck-fast-solid_6a01ba10-8c8b-44a3-816a-a7b0c4efb610.svg",
-            "usp_text": "<p>24-Hour Delivery<\/p>"
+            "usp_icon": "shopify:\/\/shop_images\/lock-solid-white.svg",
+            "usp_text": "<p>Register and Replace Scheme<\/p>"
           }
         }
       },
