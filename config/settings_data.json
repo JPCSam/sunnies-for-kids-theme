@@ -130,7 +130,16 @@
           "aced777c-1b3c-4afc-835b-e7138ba472c5": {
             "type": "announcement",
             "settings": {
-              "text": "15% OFF your holiday essentials with code ‘HOLS15’",
+              "text": "Up to 50% off with an extra 15% OFF your holiday essentials with code ‘HOLS15’",
+              "text_alignment": "center",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          },
+          "e8fba7bf-2d5c-4121-b66b-f818da0d69f6": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
               "text_alignment": "center",
               "color_scheme": "accent-1",
               "link": ""
@@ -138,7 +147,8 @@
           }
         },
         "block_order": [
-          "aced777c-1b3c-4afc-835b-e7138ba472c5"
+          "aced777c-1b3c-4afc-835b-e7138ba472c5",
+          "e8fba7bf-2d5c-4121-b66b-f818da0d69f6"
         ],
         "custom_css": [
           ".announcement-bar {background-color: #ffcb72 !important;}",
