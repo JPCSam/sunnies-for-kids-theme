@@ -1246,6 +1246,12 @@
     "name": "t:settings_schema.badges.name",
     "settings": [
       {
+        "type": "checkbox",
+        "id": "metafield_badges_enabled",
+        "label": "Use custom badges from metafield?",
+        "default": false
+      },
+      {
         "type": "select",
         "id": "badge_position",
         "options": [
