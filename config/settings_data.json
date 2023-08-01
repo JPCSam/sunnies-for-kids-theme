@@ -110,7 +110,7 @@
     "social_facebook_link": "https:\/\/www.facebook.com\/sunniesforkids\/",
     "social_pinterest_link": "",
     "social_instagram_link": "https:\/\/www.instagram.com\/sunniesforkids\/",
-    "social_tiktok_link": "https:\/\/tiktok.com\/@sunniesforkids",
+    "social_tiktok_link": "https:\/\/www.tiktok.com\/@sunnies_for_kids_",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
     "social_youtube_link": "",
@@ -130,7 +130,17 @@
           "aced777c-1b3c-4afc-835b-e7138ba472c5": {
             "type": "announcement",
             "settings": {
-              "text": "What is the sun’s favourite dessert in summer? An ice cream sundae.",
+              "text": "FLASH SALE 50% OFF",
+              "text_alignment": "center",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          },
+          "e8fba7bf-2d5c-4121-b66b-f818da0d69f6": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "text": "Welcome to our Sunnies store",
               "text_alignment": "center",
               "color_scheme": "accent-1",
               "link": ""
@@ -138,7 +148,8 @@
           }
         },
         "block_order": [
-          "aced777c-1b3c-4afc-835b-e7138ba472c5"
+          "aced777c-1b3c-4afc-835b-e7138ba472c5",
+          "e8fba7bf-2d5c-4121-b66b-f818da0d69f6"
         ],
         "custom_css": [
           ".announcement-bar {background-color: #ffcb72 !important;}",
@@ -154,7 +165,7 @@
         ],
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/Sunnies_Logo_Trim_smaller.webp",
+          "logo": "shopify:\/\/shop_images\/Sunnies_Logo_HQ.svg",
           "logo_width": 150,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -238,6 +249,18 @@
       },
       "11432920177897217407": {
         "type": "shopify:\/\/apps\/easy-product-addons\/blocks\/speedup_link\/0099190e-a0cb-49e7-8d26-026c9d26f337",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "12657775114333427046": {
+        "type": "shopify:\/\/apps\/essential-countdown-timer-bar\/blocks\/app_embed\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
