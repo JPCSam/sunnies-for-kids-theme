@@ -96,6 +96,7 @@
       "blocks": {
         "cd82e072-1451-465c-a46b-4aa4880b5c3c": {
           "type": "shopify:\/\/apps\/essential-countdown-timer-bar\/blocks\/app-block\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+          "disabled": true,
           "settings": {
             "id": "clkraysu03100401ms0y1vpr9ld"
           }
