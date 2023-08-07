@@ -5,7 +5,6 @@
       "blocks": {
         "be52ab6f-48f2-46f6-bf1e-23aad051c4a7": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "flexible, fun, and safe in the sun!",
             "heading_size": "h1",
@@ -14,7 +13,6 @@
         },
         "f82f2e05-212e-41cd-8d2d-969f5ea21c1e": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "Explore our new kids sunglasses styles, now featured in British Vogue!",
             "text_style": "body",
@@ -23,7 +21,6 @@
         },
         "6f4a5136-b6d8-45d9-b4f2-60d7123dfbcd": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
             "button_label_1": "view collection",
             "button_link_1": "shopify:\/\/collections\/new-styles-for-2023",
@@ -40,7 +37,7 @@
         "6f4a5136-b6d8-45d9-b4f2-60d7123dfbcd"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/flash-sale-splash-thin.png",
+        "image": "shopify:\/\/shop_images\/Small_Wave_Bottom_Basic.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -96,6 +93,7 @@
       "blocks": {
         "cd82e072-1451-465c-a46b-4aa4880b5c3c": {
           "type": "shopify:\/\/apps\/essential-countdown-timer-bar\/blocks\/app-block\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+          "disabled": true,
           "settings": {
             "id": "clkraysu03100401ms0y1vpr9ld"
           }
