@@ -482,34 +482,34 @@
                     {{ block.shopify_attributes }}
                   >
                     {%- for option in product.options_with_values -%}
-                      <fieldset class="js product-form__input">
-                        <legend class="form__label"><strong>{{ option.name }}</strong></legend>
-                        {%- for value in option.values -%}
-                          <input
-                            type="radio"
-                            id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
-                            name="{{ option.name }}"
-                            value="{{ value | escape }}"
-                            form="{{ product_form_id }}"
-                            {% if option.selected_value == value %}
-                              checked
-                            {% endif %}
-                          >
-                          {% if option.name == "Colour" %}
-                            <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" class="colour">
-                              {% if product.variants[forloop.index0].metafields.custom.colour_name.value == blank %}
-                                <span style="padding-right: 10px;">{{ value }}</span>
+                      {% if option.name == "Colour" %}
+                        <fieldset class="js product-form__input">
+                          <legend class="form__label"><strong>{{ option.name }}</strong></legend>
+                          {%- for value in option.values -%}
+                            <input
+                              type="radio"
+                              id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+                              name="{{ option.name }}"
+                              value="{{ value | escape }}"
+                              form="{{ product_form_id }}"
+                              {% if option.selected_value == value %}
+                                checked
                               {% endif %}
-                              {% if product.variants[forloop.index0].metafields.custom.colour_name.value != blank %}
-                                {{ product.variants[forloop.index0].metafields.custom.colour_name.value }}    
-                              {% endif %}
-                              {% if product.variants[forloop.index0].metafields.custom.hex_code.value != blank %}
-                                <span class="dot" style="background-color: {{ product.variants[forloop.index0].metafields.custom.hex_code.value }}; margin-left: 0.5rem"></span>
-                              {% endif %}
-                            </label>
-                          {% endif %}
-                        {%- endfor -%}
-                      </fieldset>
+                            >
+                              <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" class="colour">
+                                {% if product.variants[forloop.index0].metafields.custom.colour_name.value == blank %}
+                                  <span style="padding-right: 10px;">{{ value }}</span>
+                                {% endif %}
+                                {% if product.variants[forloop.index0].metafields.custom.colour_name.value != blank %}
+                                  {{ product.variants[forloop.index0].metafields.custom.colour_name.value }}    
+                                {% endif %}
+                                {% if product.variants[forloop.index0].metafields.custom.hex_code.value != blank %}
+                                  <span class="dot" style="background-color: {{ product.variants[forloop.index0].metafields.custom.hex_code.value }}; margin-left: 0.5rem"></span>
+                                {% endif %}
+                              </label>
+                          {%- endfor -%}
+                        </fieldset>
+                      {% endif %}
                     {%- endfor -%}
                     <script type="application/json">
                       {{ product.variants | json }}
