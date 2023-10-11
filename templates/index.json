@@ -37,7 +37,7 @@
         "6f4a5136-b6d8-45d9-b4f2-60d7123dfbcd"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Small_Wave_Bottom_Basic.webp",
+        "image": "shopify:\/\/shop_images\/Stay_Cool_Protected_Year-Round.svg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -47,7 +47,7 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": true
       }
     },
     "46f46434-ee46-4b5f-a0c2-abe58bc14adc": {
@@ -92,7 +92,7 @@
       "type": "apps",
       "blocks": {
         "cd82e072-1451-465c-a46b-4aa4880b5c3c": {
-          "type": "shopify:\/\/apps\/essential-countdown-timer-bar\/blocks\/app-block\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+          "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app-block\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "disabled": true,
           "settings": {
             "id": "clkraysu03100401ms0y1vpr9ld"
@@ -108,7 +108,6 @@
     },
     "8950de05-c598-4245-848b-9b692a6337bc": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-0": {
           "type": "heading",
@@ -138,6 +137,7 @@
         "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-1",
         "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-2"
       ],
+      "disabled": true,
       "custom_css": [
         "img {border-radius: 40px;}"
       ],
@@ -374,7 +374,7 @@
       "type": "apps",
       "blocks": {
         "b1d3e4cf-21f2-4dd5-befe-5ddd4fac4aa8": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "heading_size": 20,
             "feed_width": 100,
