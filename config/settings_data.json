@@ -131,10 +131,10 @@
           "135d70de-6851-4597-bd9c-7a72d5b4996f": {
             "type": "announcement",
             "settings": {
-              "text": "Check Out Our Latest Blog: It’s Snow Joke!",
+              "text": "Enjoy January Sunshine Sale! 🌞Use Code 'SUN10' at checkout",
               "text_alignment": "center",
               "color_scheme": "accent-1",
-              "link": "https:\/\/sunniesforkids.com\/blogs\/news\/it-s-snow-joke-winter-eye-protection-is-a-must"
+              "link": "shopify:\/\/collections"
             }
           }
         },
@@ -261,9 +261,9 @@
         "settings": {
           "button_color": "#000000",
           "button_icon": "chat_bubble",
+          "button_text": "chat_with_us",
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
-          "button_text": "chat_with_us",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
       }
