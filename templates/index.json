@@ -164,7 +164,7 @@
             "title": "For Babies",
             "text": "<p>Suitable for children who fit a frame width of 107-113mm<\/p>",
             "link_label": "See Sunglasses",
-            "link": "shopify:\/\/collections\/ages-0-2"
+            "link": "shopify:\/\/collections\/babies-sunglasses"
           }
         },
         "column_aLN3PM": {
@@ -239,7 +239,7 @@
         "template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "ages-0-2"
+            "collection": "babies-sunglasses"
           }
         },
         "template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-1": {
