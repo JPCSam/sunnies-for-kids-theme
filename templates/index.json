@@ -155,6 +155,59 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_VfVUht": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_VwEpqp": {
+          "type": "column",
+          "settings": {
+            "title": "For Babies",
+            "text": "<p>Suitable for children who fit a frame width of 107-113mm<\/p>",
+            "link_label": "See Sunglasses",
+            "link": "shopify:\/\/collections\/ages-0-2"
+          }
+        },
+        "column_aLN3PM": {
+          "type": "column",
+          "settings": {
+            "title": "For Toddlers",
+            "text": "<p>Suitable for children who fit a frame width of 113-125mm<\/p>",
+            "link_label": "See Sunglasses",
+            "link": "shopify:\/\/collections\/ages-3-5"
+          }
+        },
+        "column_8DYW6G": {
+          "type": "column",
+          "settings": {
+            "title": "For Juniors",
+            "text": "<p>Suitable for children who fit a frame width of 125mm+<\/p>",
+            "link_label": "See Sunglasses",
+            "link": "shopify:\/\/collections\/ages-7-9"
+          }
+        }
+      },
+      "block_order": [
+        "column_VwEpqp",
+        "column_aLN3PM",
+        "column_8DYW6G"
+      ],
+      "settings": {
+        "title": "shop by size",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -170,6 +223,7 @@
       "block_order": [
         "heading"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -206,6 +260,7 @@
         "template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-1",
         "template--17502509498660__d827b4c8-a6c7-495d-8656-dd16e15b3a7d-1673359880d00073b1-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -376,8 +431,9 @@
         "b1d3e4cf-21f2-4dd5-befe-5ddd4fac4aa8": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
             "html_area": ""
           }
         }
@@ -429,6 +485,7 @@
     "46f46434-ee46-4b5f-a0c2-abe58bc14adc",
     "16908782447fde7e83",
     "8950de05-c598-4245-848b-9b692a6337bc",
+    "multicolumn_VfVUht",
     "rich_text",
     "d827b4c8-a6c7-495d-8656-dd16e15b3a7d",
     "01e6c8fb-b947-4b53-acbe-c5a532ebe0ad",
