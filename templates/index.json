@@ -337,6 +337,7 @@
         },
         "template--17502509498660__5483315d-3e05-404c-96a8-ae9acb863bef-1673360373cf6d5a21-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "register & replace",
             "button_link": "shopify:\/\/pages\/register-and-replace",
@@ -416,6 +417,7 @@
       "block_order": [
         "template--17878230597924__8bf84133-5236-48b7-a925-ee17567c5d53-1676367138849fb042-0"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
