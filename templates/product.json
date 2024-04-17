@@ -35,7 +35,8 @@
             "margin_bottom_mobile": 16,
             "show_lower_limit": true,
             "show_upper_limit": true,
-            "show_if_outside_limits": true
+            "show_if_outside_limits": true,
+            "product": ""
           }
         },
         "variant_picker": {
@@ -56,7 +57,7 @@
           }
         },
         "98ea83ca-b79f-47e0-9205-7216d253dfab": {
-          "type": "shopify:\/\/apps\/easy-product-addons\/blocks\/spice_addons\/0099190e-a0cb-49e7-8d26-026c9d26f337",
+          "type": "shopify:\/\/apps\/epa-easy-product-addons\/blocks\/spice_addons\/0099190e-a0cb-49e7-8d26-026c9d26f337",
           "settings": {
           }
         },
@@ -138,6 +139,22 @@
         "padding_bottom": 12
       }
     },
+    "16801839235fd1392c": {
+      "type": "apps",
+      "blocks": {
+        "bundler_bundler_target_element_g4bbaV": {
+          "type": "shopify:\/\/apps\/bundler\/blocks\/bundler-target-element\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "bundler_bundler_target_element_g4bbaV"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -154,17 +171,11 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "16801839235fd1392c": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "main",
-    "product-recommendations",
-    "16801839235fd1392c"
+    "16801839235fd1392c",
+    "product-recommendations"
   ]
 }
