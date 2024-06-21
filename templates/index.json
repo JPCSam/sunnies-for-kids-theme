@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner": {
@@ -102,6 +111,7 @@
       "block_order": [
         "cd82e072-1451-465c-a46b-4aa4880b5c3c"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -208,6 +218,33 @@
         "padding_bottom": 36
       }
     },
+    "featured_collection_AAzPh7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "summer top picks",
+        "heading_size": "h1",
+        "description": "<p>Enjoy Additional 15% Off<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "juniors-sunglasses",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-2",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -277,9 +314,9 @@
     "featured_collection_nwmV3b": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
+        "title": "new summer styles",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>Enjoy 100% UV Protection + BPA Free Rubber Design + Shatter Resistance For Any Activities<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "new-styles-for-2023",
@@ -344,6 +381,71 @@
         "padding_right": 36
       }
     },
+    "featured_product_QKwBmD": {
+      "type": "featured-product",
+      "blocks": {
+        "text_M6wPGK": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_9ikUe6": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_QxMWKx": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_he8X8r": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_wyFEaE": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_Gkrhzk": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "share_erFeCV": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share and get a special discount code"
+          }
+        }
+      },
+      "block_order": [
+        "text_M6wPGK",
+        "title_9ikUe6",
+        "price_QxMWKx",
+        "variant_picker_he8X8r",
+        "quantity_selector_wyFEaE",
+        "buy_buttons_Gkrhzk",
+        "share_erFeCV"
+      ],
+      "settings": {
+        "product": "roundabout",
+        "color_scheme": "background-2",
+        "secondary_background": false,
+        "media_position": "left",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "5483315d-3e05-404c-96a8-ae9acb863bef": {
       "type": "rich-text",
       "blocks": {
@@ -377,6 +479,7 @@
         "template--17502509498660__5483315d-3e05-404c-96a8-ae9acb863bef-1673360373cf6d5a21-1",
         "template--17502509498660__5483315d-3e05-404c-96a8-ae9acb863bef-1673360373cf6d5a21-2"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -515,10 +618,12 @@
     "16908782447fde7e83",
     "8950de05-c598-4245-848b-9b692a6337bc",
     "multicolumn_VfVUht",
+    "featured_collection_AAzPh7",
     "rich_text",
     "d827b4c8-a6c7-495d-8656-dd16e15b3a7d",
     "featured_collection_nwmV3b",
     "01e6c8fb-b947-4b53-acbe-c5a532ebe0ad",
+    "featured_product_QKwBmD",
     "5483315d-3e05-404c-96a8-ae9acb863bef",
     "02370809-cc8c-439c-bcd8-1b501fa1f68c",
     "8bf84133-5236-48b7-a925-ee17567c5d53",
