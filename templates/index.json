@@ -171,7 +171,7 @@
         "column_VwEpqp": {
           "type": "column",
           "settings": {
-            "title": "For Babies",
+            "title": "For Babies (0-2)",
             "text": "<p>Suitable for children who fit a frame width of 107-113mm<\/p>",
             "link_label": "Shop baby",
             "link": "shopify:\/\/collections\/ages-0-2"
@@ -180,7 +180,7 @@
         "column_aLN3PM": {
           "type": "column",
           "settings": {
-            "title": "For Toddlers",
+            "title": "For Toddlers (3-5)",
             "text": "<p>Suitable for children who fit a frame width of 113-125mm<\/p>",
             "link_label": "Shop toddler",
             "link": "shopify:\/\/collections\/ages-3-5"
@@ -189,7 +189,7 @@
         "column_8DYW6G": {
           "type": "column",
           "settings": {
-            "title": "For Juniors",
+            "title": "For Juniors (6+)",
             "text": "<p>Suitable for children who fit a frame width of 125mm+<\/p>",
             "link_label": "Shop junior",
             "link": "shopify:\/\/collections\/ages-7-9"
@@ -221,9 +221,9 @@
     "featured_collection_AAzPh7": {
       "type": "featured-collection",
       "settings": {
-        "title": "summer top picks",
+        "title": "Summer Favourites",
         "heading_size": "h1",
-        "description": "<p>Enjoy Additional 15% Off<\/p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "juniors-sunglasses",
