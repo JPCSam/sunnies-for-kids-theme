@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
@@ -117,10 +117,10 @@
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "social_twitter_link": "",
-    "social_facebook_link": "https:\/\/www.facebook.com\/sunniesforkids\/",
+    "social_facebook_link": "https://www.facebook.com/sunniesforkids/",
     "social_pinterest_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/sunniesforkids\/",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@sunnies_for_kids_",
+    "social_instagram_link": "https://www.instagram.com/sunniesforkids/",
+    "social_tiktok_link": "https://www.tiktok.com/@sunnies_for_kids_",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
     "social_youtube_link": "",
@@ -128,7 +128,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "favicon": "shopify:\/\/shop_images\/Sunnies_Sun.svg",
+    "favicon": "shopify://shop_images/Sunnies_Sun.svg",
     "currency_code_enabled": true,
     "cart_type": "notification",
     "show_vendor": false,
@@ -143,7 +143,7 @@
               "text": "Summer Sale Is Here - Get Any 2 Pairs For £30.00",
               "text_alignment": "center",
               "color_scheme": "accent-1",
-              "link": "shopify:\/\/collections\/all"
+              "link": "shopify://collections/all"
             }
           }
         },
@@ -154,8 +154,7 @@
           ".announcement-bar {background-color: #ffcb72 !important;}",
           ".announcement-bar__message {color: #000000 !important;}"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
@@ -164,7 +163,7 @@
         ],
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/Sunnies_Logo_HQ.svg",
+          "logo": "shopify://shop_images/Sunnies_Logo_HQ.svg",
           "logo_width": 150,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -183,7 +182,7 @@
           "5e17fcab-81a2-49ac-a407-653efdd41b4c": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sunnies_Sun.svg",
+              "image": "shopify://shop_images/Sunnies_Sun.svg",
               "image_width": 100,
               "alignment": "center"
             }
@@ -199,7 +198,7 @@
             "type": "text",
             "settings": {
               "heading": "Get In Touch",
-              "subtext": "<p><br\/>Email: admin@sunniesforkids.com<\/p><p><\/p><p><a href=\"\/pages\/terms-of-service\" title=\"Terms of Service\">Terms Of Service<\/a><br\/><a href=\"\/pages\/privacy-policy\" title=\"Privacy Policy\">Privacy Policy<\/a><br\/><a href=\"\/pages\/refund-policy\" title=\"Refund Policy\">Refund Policy<\/a><br\/><a href=\"\/pages\/shipping-policy\" title=\"Shipping Policy\">Shipping Policy<\/a><br\/><\/p>"
+              "subtext": "<p><br/>Email: admin@sunniesforkids.com</p><p></p><p><a href=\"/pages/terms-of-service\" title=\"Terms of Service\">Terms Of Service</a><br/><a href=\"/pages/privacy-policy\" title=\"Privacy Policy\">Privacy Policy</a><br/><a href=\"/pages/refund-policy\" title=\"Refund Policy\">Refund Policy</a><br/><a href=\"/pages/shipping-policy\" title=\"Shipping Policy\">Shipping Policy</a><br/></p>"
             }
           }
         },
@@ -236,36 +235,30 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "319724205969189013": {
-        "type": "shopify:\/\/apps\/hulk-form-builder\/blocks\/app-embed\/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+        "type": "shopify://apps/hulk-form-builder/blocks/app-embed/b6b8dd14-356b-4725-a4ed-77232212b3c3",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "11432920177897217407": {
-        "type": "shopify:\/\/apps\/easy-product-addons\/blocks\/speedup_link\/0099190e-a0cb-49e7-8d26-026c9d26f337",
+        "type": "shopify://apps/easy-product-addons/blocks/speedup_link/0099190e-a0cb-49e7-8d26-026c9d26f337",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "12657775114333427046": {
-        "type": "shopify:\/\/apps\/essential-countdown-timer-bar\/blocks\/app_embed\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+        "type": "shopify://apps/essential-countdown-timer-bar/blocks/app_embed/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
           "button_color": "#000000",
@@ -277,10 +270,14 @@
         }
       },
       "5918445685253060206": {
-        "type": "shopify:\/\/apps\/bundler\/blocks\/bundler-script-append\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+        "type": "shopify://apps/bundler/blocks/bundler-script-append/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
+      },
+      "1232542678405107163": {
+        "type": "shopify://apps/instafeed/blocks/head-block/c447db20-095d-4a10-9725-b5977662c9d5",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
@@ -424,8 +421,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "header": {
           "type": "header",
@@ -465,7 +461,7 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
               }
             }
           },
