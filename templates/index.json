@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -27,26 +27,14 @@
             "text_style": "body",
             "text_color": "#000000"
           }
-        },
-        "6f4a5136-b6d8-45d9-b4f2-60d7123dfbcd": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "SUMMER SALE 2 FOR £30",
-            "button_link_1": "shopify:\/\/collections",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "be52ab6f-48f2-46f6-bf1e-23aad051c4a7",
-        "f82f2e05-212e-41cd-8d2d-969f5ea21c1e",
-        "6f4a5136-b6d8-45d9-b4f2-60d7123dfbcd"
+        "f82f2e05-212e-41cd-8d2d-969f5ea21c1e"
       ],
       "settings": {
-        "image_2": "shopify:\/\/shop_images\/Autumn_Sunnies_Banner_1.svg",
+        "image_2": "shopify://shop_images/Autumn_Sunnies_Banner_1.svg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -65,22 +53,22 @@
         "template--17901391020324__46f46434-ee46-4b5f-a0c2-abe58bc14adc-16859560344886d897-0": {
           "type": "usp",
           "settings": {
-            "usp_icon": "shopify:\/\/shop_images\/sun-solid_fbc0dff8-1fb2-4eca-a13f-3568ebc15d86.svg",
-            "usp_text": "<p>100% UV A+B Protection<\/p>"
+            "usp_icon": "shopify://shop_images/sun-solid_fbc0dff8-1fb2-4eca-a13f-3568ebc15d86.svg",
+            "usp_text": "<p>100% UV A+B Protection</p>"
           }
         },
         "88f2b0f4-8b35-4373-b498-c4c0f7c4bf88": {
           "type": "usp",
           "settings": {
-            "usp_icon": "shopify:\/\/shop_images\/sunglasses-solid_182e9579-937d-445a-8e93-47362b81ec7a.svg",
-            "usp_text": "<p>Shatter Resistant Design<\/p>"
+            "usp_icon": "shopify://shop_images/sunglasses-solid_182e9579-937d-445a-8e93-47362b81ec7a.svg",
+            "usp_text": "<p>Shatter Resistant Design</p>"
           }
         },
         "bec2572b-2e74-4b87-bcce-81cbcf93a9f8": {
           "type": "usp",
           "settings": {
-            "usp_icon": "shopify:\/\/shop_images\/lock-solid-white.svg",
-            "usp_text": "<p>Register and Replace Scheme<\/p>"
+            "usp_icon": "shopify://shop_images/lock-solid-white.svg",
+            "usp_text": "<p>Register and Replace Scheme</p>"
           }
         }
       },
@@ -101,7 +89,7 @@
       "type": "apps",
       "blocks": {
         "cd82e072-1451-465c-a46b-4aa4880b5c3c": {
-          "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app-block\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+          "type": "shopify://apps/essential-countdown/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "disabled": true,
           "settings": {
             "id": "clkraysu03100401ms0y1vpr9ld"
@@ -129,7 +117,7 @@
         "template--17901391020324__8950de05-c598-4245-848b-9b692a6337bc-1684840937f6d59615-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Hi all, we'll be in Liverpool on the 3rd and 4th of June for our return to The Baby & Toddler show! We absolutely loved meeting everyone at Sandown, and can't wait to meet more! This time, we're joined by Jason and Jade!<br\/><br\/>You can find us at stall E14, see you there!<\/p><p>We wrote about our time there last time, check it out below!<\/p>",
+            "text": "<p>Hi all, we'll be in Liverpool on the 3rd and 4th of June for our return to The Baby & Toddler show! We absolutely loved meeting everyone at Sandown, and can't wait to meet more! This time, we're joined by Jason and Jade!<br/><br/>You can find us at stall E14, see you there!</p><p>We wrote about our time there last time, check it out below!</p>",
             "text_style": "body"
           }
         },
@@ -138,7 +126,7 @@
           "disabled": true,
           "settings": {
             "button_label": "read sunnies life",
-            "button_link": "shopify:\/\/blogs\/news\/nec-show-wrap-up"
+            "button_link": "shopify://blogs/news/nec-show-wrap-up"
           }
         }
       },
@@ -152,7 +140,7 @@
         "img {border-radius: 40px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/team_smaller.webp",
+        "image": "shopify://shop_images/team_smaller.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -172,27 +160,27 @@
           "type": "column",
           "settings": {
             "title": "For Babies (0-2)",
-            "text": "<p>Suitable for children who fit a frame width of 107-113mm<\/p>",
+            "text": "<p>Suitable for children who fit a frame width of 107-113mm</p>",
             "link_label": "Shop baby",
-            "link": "shopify:\/\/collections\/ages-0-2"
+            "link": "shopify://collections/ages-0-2"
           }
         },
         "column_aLN3PM": {
           "type": "column",
           "settings": {
             "title": "For Toddlers (3-5)",
-            "text": "<p>Suitable for children who fit a frame width of 113-125mm<\/p>",
+            "text": "<p>Suitable for children who fit a frame width of 113-125mm</p>",
             "link_label": "Shop toddler",
-            "link": "shopify:\/\/collections\/ages-3-5"
+            "link": "shopify://collections/ages-3-5"
           }
         },
         "column_8DYW6G": {
           "type": "column",
           "settings": {
             "title": "For Juniors (6+)",
-            "text": "<p>Suitable for children who fit a frame width of 125mm+<\/p>",
+            "text": "<p>Suitable for children who fit a frame width of 125mm+</p>",
             "link_label": "Shop junior",
-            "link": "shopify:\/\/collections\/ages-7-9"
+            "link": "shopify://collections/ages-7-9"
           }
         }
       },
@@ -251,7 +239,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>shop by age <\/p>",
+            "heading": "<p>shop by age </p>",
             "heading_size": "h1",
             "heading_color": "#000000"
           }
@@ -316,7 +304,7 @@
       "settings": {
         "title": "new summer styles",
         "heading_size": "h2",
-        "description": "<p>Enjoy 100% UV Protection + BPA Free Rubber Design + Shatter Resistance For Any Activities<\/p>",
+        "description": "<p>Enjoy 100% UV Protection + BPA Free Rubber Design + Shatter Resistance For Any Activities</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "new-styles-for-2023",
@@ -344,7 +332,7 @@
         "template--17567828771108__01e6c8fb-b947-4b53-acbe-c5a532ebe0ad-16739590888a94cc3d-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>full UV protection for your little ones.<\/p>",
+            "heading": "<p>full UV protection for your little ones.</p>",
             "heading_size": "h1",
             "heading_color": "#000000"
           }
@@ -352,7 +340,7 @@
         "template--17567828771108__01e6c8fb-b947-4b53-acbe-c5a532ebe0ad-16739590888a94cc3d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>All our Sunnies sunglasses offer 100% UVA\/UVB protection against strong sunlight. The lenses are filter category 3 equivalent to UV400 and are shatter resistant.<\/p>",
+            "text": "<p>All our Sunnies sunglasses offer 100% UVA/UVB protection against strong sunlight. The lenses are filter category 3 equivalent to UV400 and are shatter resistant.</p>",
             "text_color": "#000000"
           }
         },
@@ -360,7 +348,7 @@
           "type": "button",
           "settings": {
             "button_label": "find out more",
-            "button_link": "shopify:\/\/collections",
+            "button_link": "shopify://collections",
             "button_style": "gradient"
           }
         }
@@ -371,8 +359,8 @@
         "9130858a-0b98-42e5-b39c-3af7fee34c9a"
       ],
       "settings": {
-        "text_background_image": "shopify:\/\/shop_images\/yellow_sun_bg-READY.png",
-        "content_image": "shopify:\/\/shop_images\/Black_Sunnies_Child_Close_Up.jpg",
+        "text_background_image": "shopify://shop_images/yellow_sun_bg-READY.png",
+        "content_image": "shopify://shop_images/Black_Sunnies_Child_Close_Up.jpg",
         "image_position": "right",
         "content_image_height": 500,
         "padding_top": 36,
@@ -399,8 +387,7 @@
         },
         "price_QxMWKx": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker_he8X8r": {
           "type": "variant_picker",
@@ -410,8 +397,7 @@
         },
         "quantity_selector_wyFEaE": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons_Gkrhzk": {
           "type": "buy_buttons",
@@ -452,7 +438,7 @@
         "template--17502509498660__5483315d-3e05-404c-96a8-ae9acb863bef-1673360373cf6d5a21-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>broken sunnies?<br\/>we've got you covered.<\/p>",
+            "heading": "<p>broken sunnies?<br/>we've got you covered.</p>",
             "heading_size": "h1",
             "heading_color": "#000000"
           }
@@ -460,7 +446,7 @@
         "template--17502509498660__5483315d-3e05-404c-96a8-ae9acb863bef-1673360373cf6d5a21-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Register your glasses within 30 days of purchase, and if broken during the <br\/>first year you will receive a one-time replacement pair for free! All you pay is the postage.<\/p>",
+            "text": "<p>Register your glasses within 30 days of purchase, and if broken during the <br/>first year you will receive a one-time replacement pair for free! All you pay is the postage.</p>",
             "text_color": "#000000"
           }
         },
@@ -469,7 +455,7 @@
           "disabled": true,
           "settings": {
             "button_label": "register & replace",
-            "button_link": "shopify:\/\/pages\/register-and-replace",
+            "button_link": "shopify://pages/register-and-replace",
             "button_style": "gradient"
           }
         }
@@ -495,7 +481,7 @@
         "template--17878230597924__02370809-cc8c-439c-bcd8-1b501fa1f68c-1676303303ea2159f7-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>got your glasses? get trendy accessories to match.<\/p>",
+            "heading": "<p>got your glasses? get trendy accessories to match.</p>",
             "heading_size": "h1",
             "heading_color": "#000000"
           }
@@ -503,7 +489,7 @@
         "template--17878230597924__02370809-cc8c-439c-bcd8-1b501fa1f68c-1676303303ea2159f7-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Sunnies offers beach-ready accessories to keep your new specs Sunnies Safe!<\/p>",
+            "text": "<p>Sunnies offers beach-ready accessories to keep your new specs Sunnies Safe!</p>",
             "text_color": "#000000"
           }
         },
@@ -511,7 +497,7 @@
           "type": "button",
           "settings": {
             "button_label": "see accessories",
-            "button_link": "shopify:\/\/collections\/accessories",
+            "button_link": "shopify://collections/accessories",
             "button_style": "gradient"
           }
         }
@@ -522,8 +508,8 @@
         "template--17878230597924__02370809-cc8c-439c-bcd8-1b501fa1f68c-1676303303ea2159f7-2"
       ],
       "settings": {
-        "text_background_image": "shopify:\/\/shop_images\/blue_sun_bg-READY.png",
-        "content_image": "shopify:\/\/shop_images\/Black_Sunnies_Child_on_Water.jpg",
+        "text_background_image": "shopify://shop_images/blue_sun_bg-READY.png",
+        "content_image": "shopify://shop_images/Black_Sunnies_Child_on_Water.jpg",
         "image_position": "left",
         "content_image_height": 500,
         "padding_top": 36,
@@ -538,7 +524,7 @@
         "template--17878230597924__8bf84133-5236-48b7-a925-ee17567c5d53-1676367138849fb042-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>check out our socials!<\/p>",
+            "heading": "<p>check out our socials!</p>",
             "heading_size": "h1",
             "heading_color": "#000000"
           }
@@ -561,11 +547,13 @@
       "type": "apps",
       "blocks": {
         "b1d3e4cf-21f2-4dd5-befe-5ddd4fac4aa8": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "",
             "title_color": "",
             "alignment": "center",
+            "background_color": "",
+            "feed_id": "",
             "html_area": ""
           }
         }
@@ -590,13 +578,12 @@
         "template--17901391020324__6700d468-6aa4-41c2-b0c2-abff9186b989-167689241750c72c74-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
           }
         },
         "template--17901391020324__6700d468-6aa4-41c2-b0c2-abff9186b989-167689241750c72c74-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
