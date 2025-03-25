@@ -13,7 +13,7 @@
         "pagetify-page": {
             "type": "pagetify-page",
             "settings": {
-                "type": "landing",
+                "type": "article",
                 "width": ""
             }
         }
