@@ -278,6 +278,11 @@
         "type": "shopify://apps/instafeed/blocks/head-block/c447db20-095d-4a10-9725-b5977662c9d5",
         "disabled": false,
         "settings": {}
+      },
+      "8814297988395605169": {
+        "type": "shopify://apps/adperfect-marketing-platform/blocks/app-embed/8b4a8c56-21b5-437e-95f9-cd5dc65ceb49",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
